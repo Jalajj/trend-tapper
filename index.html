@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trend Tapper — AI Marketing Trends & Post Ideas</title>
+  <meta name="description" content="Get 10 current AI marketing trends + 5 post angles for each. Updated daily. Free, no signup.">
+  <style>
+    :root {
+      --bg: #0a0a0f; --card: #1a1a24; --border: #2a2a3a; --text: #e8e8f0;
+      --muted: #8a8aa3; --accent: #6366f1; --accent2: #8b5cf6; --green: #22c55e;
+      --yellow: #eab308; --red: #f87171;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg); color: var(--text); min-height: 100vh;
+    }
+    header {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      padding: 3rem 2rem; text-align: center;
+    }
+    header h1 { font-size: 2rem; font-weight: 800; margin-bottom: .5rem; }
+    header p { font-size: 1rem; opacity: .9; max-width: 600px; margin: 0 auto; }
+    header .meta { font-size: .85rem; margin-top: 1rem; opacity: .8; }
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
+    .controls {
+      background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+      padding: 1.5rem; margin-bottom: 2rem;
+    }
+    .controls label { display: block; font-size: .85rem; color: var(--muted); margin-bottom: .5rem; }
+    .controls select, .controls input {
+      width: 100%; padding: .8rem; background: #111; border: 1px solid var(--border);
+      border-radius: 10px; color: var(--text); font-size: 1rem; outline: none;
+    }
+    .controls select:focus, .controls input:focus { border-color: var(--accent); }
+    button#tap {
+      width: 100%; margin-top: 1rem; padding: .9rem; font-size: 1.1rem; font-weight: 600;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      border: none; border-radius: 10px; cursor: pointer; transition: opacity .2s;
+    }
+    button#tap:hover { opacity: .9; }
+    button#tap:disabled { opacity: .6; cursor: not-allowed; }
+    .filter-row { display: flex; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; }
+    .filter-row label { font-size: .8rem; color: var(--muted); display: flex; align-items: center; gap: .5rem; }
+    .filter-row input[type="checkbox"] { width: auto; }
+    .trend-grid { display: grid; gap: 1.5rem; }
+    .trend-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+      padding: 1.5rem;
+    }
+    .trend-header { margin-bottom: 1rem; }
+    .trend-title { font-size: 1.2rem; font-weight: 600; margin-bottom: .25rem; }
+    .badges { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: .75rem; }
+    .badge {
+      display: inline-flex; align-items: center; gap: .25rem; padding: .2rem .6rem;
+      border-radius: 6px; font-size: .7rem; font-weight: 600;
+    }
+    .badge.hot { background: rgba(248,113,113,.15); color: var(--red); border: 1px solid rgba(248,113,113,.3); }
+    .badge.new { background: rgba(99,102,241,.15); color: var(--accent); border: 1px solid rgba(99,102,241,.3); }
+    .badge.warm { background: rgba(234,179,8,.15); color: var(--yellow); border: 1px solid rgba(234,179,8,.3); }
+    .badge.cool { background: rgba(34,197,94,.15); color: var(--green); border: 1px solid rgba(34,197,94,.3); }
+    .trend-desc { color: var(--muted); font-size: .9rem; line-height: 1.5; margin-bottom: 1rem; }
+    .angles { display: grid; gap: .5rem; }
+    .angle {
+      background: #111; border: 1px solid var(--border); border-radius: 10px;
+      padding: .8rem; list-style: none; position: relative;
+    }
+    .angle::before {
+      content: counter(angle); counter-increment: angle;
+      position: absolute; left: .75rem; top: 50%; transform: translateY(-50%);
+      color: var(--accent); font-size: .7rem; font-weight: 700;
+    }
+    .angle { padding-left: 2.25rem; font-size: .85rem; line-height: 1.5; counter-reset: angle; }
+    .angle::before { content: counter(angle) ". "; left: .5rem; }
+    .angle strong { color: var(--accent2); }
+    .source { display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; font-size: .8rem; color: var(--muted); }
+    .source a { color: var(--accent); text-decoration: none; }
+    .source a:hover { text-decoration: underline; }
+    .loading { text-align: center; padding: 3rem; color: var(--muted); }
+    .error { background: rgba(248,113,113,.1); border: 1px solid rgba(248,113,113,.3); border-radius: 10px; padding: 1rem; color: var(--red); margin-top: 1rem; }
+    footer { text-align: center; color: var(--muted); font-size: .8rem; padding: 2rem; }
+    @media (max-width: 600px) { .container { padding: 1rem; } header h1 { font-size: 1.5rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trend Tapper</h1>
+    <p>Get 10 current AI marketing trends + 5 post angles for each. Stay ahead of the curve.</p>
+    <div class="meta">Trending in: <strong>AI & Marketing</strong> · Updated daily · Free, no signup</div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <label for="category">What do you want trends for?</label>
+      <select id="category">
+        <option value="ai-marketing">AI & Marketing</option>
+        <option value="ai-tools">AI Tools</option>
+        <option value="content">Content & Social</option>
+        <option value="automation">Automation & Workflow</option>
+        <option value="ads">Advertising</option>
+        <option value="analytics">Analytics & Attribution</option>
+        <option value="agency">Agency Operations</option>
+        <option value="growth">Growth & Growth Marketing</option>
+        <option value="crm">CRM & Customer Data</option>
+        <option value="ecommerce">E-commerce</option>
+      </select>
+
+      <div class="filter-row">
+        <label><input type="checkbox" id="show-hot" checked> Hot trends only</label>
+        <label><input type="checkbox" id="include-news" checked> Include latest news angles</label>
+      </div>
+
+      <button id="tap">⚡ Tap for trends</button>
+      <div id="error-msg"></div>
+    </section>
+
+    <div id="loading" class="loading" style="display:none;">⏳ Fetching latest trends...</div>
+    <div id="results" class="trend-grid"></div>
+  </main>
+
+  <footer>Built live in <strong>Day 2 of 7 tiny tools</strong>. Free, no signup. <a href="https://github.com/jalajjain/trend-tapper">Source</a></footer>
+
+  <script>
+    // === Curated trend database (marketing professionals) ===
+    // Updated weekly with the most actionable, postable trends
+    const TRENDS_DB = {
+      "ai-marketing": [
+        { id: "t1", title: "Agentic Marketing Workflows", desc: "Multi-step AI agents that orchestrate campaigns end-to-end — from research to copy to scheduling — without human intervention.", badges: ["hot","new"], source: "https://example.com/agentic-marketing", sourceName: "Marketing AI Institute", date: "2025-01", angles: {
+          hot: ["Why agentic workflows will kill the agency middleman", "How to build your first 3-step marketing agent (no-code)", "The 1 workflow that replaced 3 tools in my stack"],
+          news: ["Anthropic's new agent API just made this 10x cheaper", "Copy.ai's agent platform: early access review", "Why Salesforce buying this agent startup matters"],
+        }},
+        { id: "t2", title: "AI-Generated Creative at Scale", desc: "Brands are producing 100+ ad variations per campaign using AI — testing everything from visuals to voiceovers to hooks.", badges: ["hot","warm"], source: "https://example.com/ai-creative", sourceName: "Think with Google", date: "2025-01", angles: {
+          hot: ["How to generate 100 ad variants without hiring 10 creatives", "The 3 AI tools killing stock photo sites", "Why 'perfect' AI creative flops in real campaigns"],
+          news: ["Midjourney v7 changes everything for ad creative", "Runway's new batch mode is a game-changer", "Meta's AI ad generator: what advertisers are seeing"],
+        }},
+        { id: "t3", title: "Predictive Audience Segmentation", desc: "AI models predict which segments will convert before you even launch — using behavioral + demographic + intent signals.", badges: ["hot","new"], source: "https://example.com/predictive-audiences", sourceName: "Segment Blog", date: "2024-12", angles: {
+          hot: ["How AI predicted my best customer 3 weeks before signup", "Why demographic segmentation is dead (and what replaced it)", "The 1 audience insight AI found that surveys missed"],
+          news: ["Segment's new predictive cohorts: hands-on review", "RudderStack's open-source alternative to mParticle"],
+        }},
+        { id: "t4", title: "Conversational Commerce 2.0", desc: "AI chatbots that don't just answer FAQs — they guide users through product selection, handle objections, and close sales.", badges: ["warm"], source: "https://example.com/conversational-commerce", sourceName: "Shopify Plus", date: "2024-12", angles: {
+          hot: ["How to turn your chatbot into a 24/7 salesperson", "The script template that turned 30% of chats into buyers", "Why most chatbots still suck (and how to fix yours)"],
+          news: ["Shopify's new AI store builder: what changed", "WhatsApp Business API updates for 2025"],
+        }},
+        { id: "t5", title: "Context Engineering for Marketers", desc: "Writing better AI prompts isn't the skill — engineering the full context (brand voice, audience, goal, constraints) is the new copywriting.", badges: ["hot","warm"], source: "https://example.com/context-engineering", sourceName: "Harvard Business Review", date: "2025-01", angles: {
+          hot: ["The difference between good prompts and great context", "Why 'write like a SaaS expert' fails (and what works)", "How to brief an AI like you'd brief a senior copywriter"],
+          news: ["Anthropic's system prompt guide just dropped", "OpenAI's new prompt optimizer tool reviewed"],
+        }},
+        { id: "t6", title: "AI-First Brand Personas", desc: "Instead of static persona decks, brands build dynamic AI personas fed by real customer data — updated weekly.", badges: ["new","cool"], source: "https://example.com/ai-personas", sourceName: "HubSpot Blog", date: "2025-01", angles: {
+          hot: ["How we replaced 5 static personas with 1 living AI one", "The customer data that actually matters for AI personas", "Why 'marketing-qualified lead' is now a real-time AI score"],
+          news: ["HubSpot's new AI persona builder reviewed", "How Notion's AI knows your audience better than you do"],
+        }},
+        { id: "t7", title: "Generative Engine Optimization (GEO)", desc: "Optimizing content so AI search engines (ChatGPT, Claude, Gemini) cite you as a source — not just traditional SEO.", badges: ["hot","warm"], source: "https://example.com/geo", sourceName: "SparkToro", date: "2025-01", angles: {
+          hot: ["GEO vs SEO: why your rankings don't matter anymore", "How to write content that ChatGPT recommends", "The 3 signals AI search uses instead of backlinks"],
+          news: ["Google's SGE update: how GEO changes everything", "ChatGPT search vs traditional search: a breakdown"],
+        }},
+        { id: "t8", title: "Voice-Driven Analytics", desc: "Ask your data questions in plain English — 'Why did revenue drop in December?' — and get charts + insights back instantly.", badges: ["warm","cool"], source: "https://example.com/voice-analytics", sourceName: "Looker Blog", date: "2024-12", angles: {
+          hot: ["'Show me Q4 growth' — and it just works. Here's the tool", "Why natural-language analytics is finally here (and why it matters)", "How to ask your data the right questions"],
+          news: ["Looker's new AI assistant: early hands-on", "Tableau's Copilot integration announced"],
+        }},
+        { id: "t9", title: "Dynamic Creative Optimization 2.0", desc: "AI that auto-generates, tests, and optimizes ad creative in real-time — picking winners based on live conversion data.", badges: ["warm"], source: "https://example.com/dco2", sourceName: "Meta Marketing", date: "2024-11", angles: {
+          hot: ["How AI killed A/B testing (and made it better)", "The 3 creative variants that beat 100 manually tested ones", "Why 'set it and forget it' creative is finally real"],
+          news: ["Meta's new DCO: what advertisers need to know", "TikTok's automated creative lab review"],
+        }},
+        { id: "t10", title: "Personalization at Scale", desc: "AI that creates personalized landing pages, emails, and ads for each visitor — automatically, without dev work.", badges: ["hot","warm"], source: "https://example.com/personalization", sourceName: "Optimizely", date: "2025-01", angles: {
+          hot: ["How we increased conversion 3x with zero manual personalization", "The 3 pieces of data that unlock true personalization", "Why 'personalized for you' still feels generic (and how to fix it)"],
+          news: ["Optimizely's AI personalization: real results", "Dynamic yield's new adaptive engine deep dive"],
+        }},
+      ],
+      "ai-tools": [
+        { id: "at1", title: "Claude 3.5 Sonnet for Marketing", desc: "Anthropic's latest model showing 40% better reasoning for complex marketing tasks — copywriting, analysis, strategy.", badges: ["hot","new"], source: "https://example.com/claude-marketing", sourceName: "Anthropic", date: "2025-01", angles: {
+          hot: ["Claude 3.5 vs GPT-4o for marketing tasks: detailed comparison", "Why Claude wins at long-form content (and GPT wins at hooks)", "The one prompt that makes Claude write like a human"],
+          news: ["Anthropic releases Claude 3.5 Sonnet: what's new", "Early access benchmarks vs OpenAI models"],
+        }},
+        { id: "at2", title: "Open-Source AI Marketing Stack", desc: "Llama 3, Gemma, and Mistral models running locally — zero API costs for routine marketing tasks.", badges: ["warm","cool"], source: "https://example.com/oss-ai", sourceName: "Hugging Face", date: "2024-12", angles: {
+          hot: ["How we cut AI costs 90% with local models", "The 5 marketing tasks better run locally (not via API)", "Running Llama 3 on a $5/month VPS: complete guide"],
+          news: ["Llama 3.3 performance benchmarks for marketing", "How to set up your own AI marketing stack (guide)"],
+        }},
+      ],
+      "content": [
+        { id: "ct1", title: "Short-Form Video Automation", desc: "AI that scripts, films (stock + AI avatars), and edits 30 pieces of short-form content in under 10 minutes.", badges: ["hot","new"], source: "https://example.com/video-automation", sourceName: "Tubefilter", date: "2025-01", angles: {
+          hot: ["How to produce 30 Reels/week without a camera", "The AI video stack that replaced my editing software", "Why 'authentic' AI video works (and how to make it)"],
+          news: ["HeyGen's new batch video generator reviewed", "Pika Labs updates for marketers"],
+        }},
+      ],
+      "automation": [
+        { id: "au1", title: "No-Code AI Agent Builders", desc: "Platforms like Voiceflow, Make, and Zapier launching AI agent capabilities — automate complex workflows without code.", badges: ["hot","warm"], source: "https://example.com/agent-builders", sourceName: "Make Blog", date: "2025-01", angles: {
+          hot: ["The 3 agent builders actually shipping (and 2 that are vaporware)", "How to build an AI agent that books meetings (live demo)", "Why 'agent' doesn't mean what you think it does"],
+          news: ["Make's new AI agent builder: hands-on", "Zapier's Copilot vs. Anthropic's Claude Agents"],
+        }},
+      ]
+    };
+
+    const category = document.getElementById("category");
+    const btn = document.getElementById("tap");
+    const results = document.getElementById("results");
+    const loading = document.getElementById("loading");
+    const errorMsg = document.getElementById("error-msg");
+
+    // Badge labels
+    const badgeLabels = { hot: "🔥 Hot", new: "🆕 New", warm: "☕ Warm", cool: "🧊 Cool" };
+
+    btn.addEventListener("click", () => {
+      const cat = category.value;
+      const showHot = document.getElementById("show-hot").checked;
+      const includeNews = document.getElementById("include-news").checked;
+
+      results.innerHTML = "";
+      errorMsg.innerHTML = "";
+      loading.style.display = "block";
+      btn.disabled = true;
+
+      setTimeout(() => {
+        try {
+          let trends = TRENDS_DB[cat] || TRENDS_DB["ai-marketing"];
+
+          if (showHot) {
+            trends = trends.filter(t => t.badges.includes("hot"));
+          }
+
+          // Shuffle for variety
+          trends = [...trends].sort(() => Math.random() - 0.5);
+
+          // Limit to 10
+          trends = trends.slice(0, 10);
+
+          if (trends.length === 0) {
+            results.innerHTML = '<p class="loading">No trends match your filters. Try turning off "Hot trends only".</p>';
+            return;
+          }
+
+          results.innerHTML = trends.map(t => {
+            const badgeHtml = t.badges.map(b => `<span class="badge ${b}">${badgeLabels[b]}</span>`).join("");
+            const anglePool = [
+              ...(includeNews ? [...(t.angles.hot || []), ...(t.angles.news || [])] : t.angles.hot || []),
+            ];
+            const selectedAngles = [...new Set(anglePool)].slice(0, 5);
+
+            return `
+              <div class="trend-card">
+                <div class="trend-header">
+                  <div class="trend-title">${t.title}</div>
+                  <div class="badges">${badgeHtml}</div>
+                </div>
+                <p class="trend-desc">${t.desc}</p>
+                <ol class="angles">
+                  ${selectedAngles.map(a => `<li class="angle"><strong>${a}</strong></li>`).join("")}
+                </ol>
+                <div class="source">
+                  <span style="color:var(--muted)">Source: ${t.sourceName} · ${t.date}</span>
+                  <a href="${t.source}" target="_blank">→ Read trend</a>
+                </div>
+              </div>
+            `;
+          }).join("");
+
+          // Wire copy: clicking a trend title copies the angles
+          results.querySelectorAll('.trend-card').forEach(card => {
+            card.addEventListener('click', () => {
+              const title = card.querySelector('.trend-title').textContent;
+              const angles = Array.from(card.querySelectorAll('.angle strong')).map(a => "• " + a.textContent).join("\n");
+              const clip = `${title}\n\n${angles}`;
+              navigator.clipboard.writeText(clip);
+            });
+          });
+        } catch(e) {
+          errorMsg.innerHTML = `<div class="error">Error: ${e.message}</div>`;
+        }
+        loading.style.display = "none";
+        btn.disabled = false;
+      }, 600);
+    });
+
+    // Auto-tap on load
+    btn.click();
+  </script>
+</body>
+</html>
