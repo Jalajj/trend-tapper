@@ -1,0 +1,35 @@
+name: Update Trends Daily
+
+on:
+  schedule:
+    - cron: "0 9 * * *"  # Every day at 9am UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: pip install feedparser requests beautifulsoup4
+
+      - name: Fetch live trends
+        run: python fetch_trends.py
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "trend-tapper@users.noreply.github.com"
+          git config --local user.name "Trend Tapper Bot"
+          git add -A
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Daily trend update: $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No new trends to update"
+          fi
