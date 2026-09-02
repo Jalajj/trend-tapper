@@ -140,17 +140,17 @@ def clean_topic(title):
         if (after.endswith("?") or len(after) > 40 or after.startswith(("What ", "How ", "Why ", "Why's ", "The "))):
             title = title[:colon_idx].strip()
 
-    # Strip question-word prefixes from ALL titles (not just questions)
-    # For questions (ending with ?), also truncate to key phrase
-    # For non-questions starting with "How to" etc., just strip the prefix
+    # Strip question-word prefixes and articles from ALL titles
+    # Order matters: longest/most specific prefixes first
     question_prefixes = [
-        "How to ", "How do ", "How did ", "How can ", "How will ",
-        "What is ", "What are ", "What was ", "What were ", "What does ",
-        "Why is ", "Why was ", "Why did ", "Why are ", "Why does ",
-        "Is ", "Are ", "Can ", "Will ", "Do ", "Does ", "Should ",
-        "Would ", "Could ", "Did ", "When ", "Where ", "Which ",
         "How accurate have ", "How long will ", "How much does ",
         "How many ", "How often ", "How about ",
+        "How to use ", "How to ", "How do ", "How did ", "How can ", "How will ",
+        "How ",  # bare "How" — must come after all specific "How ..." prefixes
+        "What is ", "What are ", "What was ", "What were ", "What does ", "What have ",
+        "Why is ", "Why was ", "Why did ", "Why are ", "Why does ", "Why have ",
+        "Is ", "Are ", "Can ", "Will ", "Do ", "Does ", "Should ",
+        "Would ", "Could ", "Did ", "When ", "Where ", "Which ",
     ]
 
     is_question = title.endswith("?")
@@ -160,7 +160,11 @@ def clean_topic(title):
             title_stripped = title[len(prefix):]
             break
 
-    # Capitalize first letter if we stripped a prefix (e.g. "How to" → "Use AI tools")
+    # Also strip "The " article prefix (e.g. "The ChatGPT/Codex app..." → "ChatGPT/Codex app...")
+    if title_stripped == title and title.startswith("The "):
+        title_stripped = title[4:]
+
+    # Capitalize first letter if we stripped a prefix
     if title_stripped != title:
         title_stripped = title_stripped[0].upper() + title_stripped[1:] if title_stripped else title_stripped
 
@@ -175,11 +179,11 @@ def clean_topic(title):
     title = title_stripped
 
     # Truncate long titles (keep it readable for angle templates)
-    if len(title) > 70:
+    if len(title) > 80:
         words = title.split()
         for cut in range(5, len(words) + 1):
             short = " ".join(words[:cut])
-            if len(short) <= 48:
+            if len(short) <= 72:
                 title = short
                 break
 

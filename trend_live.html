@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trend Tapper — Live AI & Marketing Trends + Post Angles</title>
+  <meta name="description" content="Get live trending AI/marketing topics + 5 post angles for each. Updated daily. Free, no signup, no AI key needed.">
+  <style>
+    :root {
+      --bg: #0a0a0f; --card: #1a1a24; --border: #2a2a3a; --text: #e8e8f0;
+      --muted: #8a8aa3; --accent: #6366f1; --accent2: #8b5cf6;
+      --green: #22c55e; --yellow: #eab308; --red: #f87171;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg); color: var(--text); min-height: 100vh;
+    }
+    header {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      padding: 3rem 2rem; text-align: center;
+    }
+    header h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: .5rem; }
+    header p { font-size: 1.1rem; opacity: .95; max-width: 640px; margin: 0 auto; }
+    header .meta { font-size: .85rem; margin-top: 1rem; opacity: .85; }
+    header .meta strong { color: white; }
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
+    .controls {
+      background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+      padding: 1.5rem; margin-bottom: 2rem;
+    }
+    .controls label { display: block; font-size: .85rem; color: var(--muted); margin-bottom: .5rem; }
+    .controls select {
+      width: 100%; padding: .8rem; background: #111; border: 1px solid var(--border);
+      border-radius: 10px; color: var(--text); font-size: 1rem; outline: none;
+    }
+    .controls select:focus { border-color: var(--accent); }
+    button#tap {
+      width: 100%; margin-top: 1rem; padding: .9rem; font-size: 1.1rem; font-weight: 600;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      border: none; border-radius: 10px; cursor: pointer; transition: opacity .2s;
+    }
+    button#tap:hover { opacity: .9; }
+    button#tap:disabled { opacity: .6; cursor: not-allowed; }
+    .filter-row { display: flex; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; }
+    .filter-row label {
+      font-size: .85rem; color: var(--muted); display: flex; align-items: center; gap: .5rem; cursor: pointer;
+    }
+    .filter-row input[type="checkbox"] { width: auto; cursor: pointer; }
+    .trend-grid { display: grid; gap: 1.5rem; margin-top: 1.5rem; }
+    .trend-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+      padding: 1.5rem; cursor: pointer; transition: transform .1s, border-color .2s;
+    }
+    .trend-card:hover { border-color: var(--accent); background: #21212a; }
+    .trend-header { margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; }
+    .trend-title { font-size: 1.2rem; font-weight: 600; line-height: 1.3; }
+    .badges { display: flex; gap: .4rem; flex-wrap: wrap; }
+    .badge {
+      display: inline-flex; align-items: center; gap: .25rem; padding: .2rem .6rem;
+      border-radius: 6px; font-size: .7rem; font-weight: 600; text-transform: uppercase;
+    }
+    .badge.hot { background: rgba(248,113,113,.15); color: var(--red); border: 1px solid rgba(248,113,113,.3); }
+    .badge.new { background: rgba(99,102,241,.15); color: var(--accent); border: 1px solid rgba(99,102,241,.3); }
+    .badge.warm { background: rgba(234,179,8,.15); color: var(--yellow); border: 1px solid rgba(234,179,8,.3); }
+    .badge.cool { background: rgba(34,197,94,.15); color: var(--green); border: 1px solid rgba(34,197,94,.3); }
+    .trend-desc { color: var(--muted); font-size: .9rem; line-height: 1.5; margin-bottom: 1rem; }
+    .angles { display: grid; gap: .5rem; }
+    .angle { padding: .7rem 2rem .7rem .75rem; background: #111; border: 1px solid var(--border); border-radius: 10px; font-size: .85rem; line-height: 1.5; list-style: none; position: relative; }
+    .angle::before {
+      content: attr(data-num) " · ";
+      position: absolute; left: .75rem; top: 50%; transform: translateY(-50%);
+      color: var(--accent); font-weight: 700; font-size: .75rem;
+    }
+    .angle strong { color: var(--accent2); }
+    .source { display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; font-size: .8rem; color: var(--muted); }
+    .source a { color: var(--accent); text-decoration: none; }
+    .source a:hover { text-decoration: underline; }
+    .loading { text-align: center; padding: 3rem; color: var(--muted); font-size: 1.1rem; }
+    .error { background: rgba(248,113,113,.1); border: 1px solid rgba(248,113,113,.3); border-radius: 10px; padding: 1rem; color: var(--red); margin-top: 1rem; }
+    .no-data { text-align: center; padding: 2rem; color: var(--muted); }
+    .no-results { text-align: center; padding: 2rem; color: var(--muted); }
+    .no-results p { margin-bottom: 1rem; }
+    .tag-badge { display: inline-block; background: var(--accent); color: white; font-size: .65rem; font-weight: 600; padding: .15rem .5rem; border-radius: 4px; margin-left: .5rem; }
+    footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 2rem; }
+    footer a { color: var(--accent); }
+    footer a.github { margin-left: 1rem; }
+    @media (max-width: 600px) { .container { padding: 1rem; } header h1 { font-size: 1.8rem; } .angle { padding-left: 2rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trend Tapper <span style="font-size:1.2rem">⚡</span></h1>
+    <p>Get live AI marketing trends with 5 post angles each — tap once and start writing.</p>
+    <div class="meta">Trending in: <strong id="meta-category">AI & Marketing</strong> · Updated daily at 9am UTC · Free, no signup · <a href="https://github.com/jalajj/trend-tapper" style="color:inherit;text-decoration:underline">open source</a></div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <label for="category">What do you want trends for?</label>
+      <select id="category">
+        <option value="ai-marketing">AI & Marketing</option>
+        <option value="ai-tools">AI Tools</option>
+        <option value="content">Content & Social</option>
+        <option value="automation">Automation & Workflow</option>
+        <option value="ads">Advertising</option>
+        <option value="analytics">Analytics & Attribution</option>
+        <option value="agency">Agency Operations</option>
+        <option value="growth">Growth & Growth Marketing</option>
+        <option value="crm">CRM & Customer Data</option>
+        <option value="ecommerce">E-commerce</option>
+      </select>
+
+      <div class="filter-row">
+        <label><input type="checkbox" id="show-hot" checked> 🔥 Hot trends only</label>
+      </div>
+
+      <button id="tap">⚡ Tap for fresh trends</button>
+      <div id="error-msg"></div>
+    </section>
+
+    <div id="loading" class="loading" style="display:none;">⏳ Fetching the latest trends...</div>
+    <div id="category-note" style="display:none;background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.3);border-radius:10px;padding:1rem;margin-bottom:1.5rem;font-size:.85rem;color:var(--muted);">
+      💡 Trends are the same across categories, but each category gives you <strong>different post angles</strong> tailored to that context. Click any trend to copy all angles.
+    </div>
+    <div id="results" class="trend-grid"></div>
+    <div id="no-results" class="no-results" style="display:none;">
+      <p>No trends match your filters.</p>
+      <p>Try unchecking "Hot trends only" or selecting a different category.</p>
+      <button id="reset-filters" style="margin-top:1rem;padding:.6rem 1.2rem;background:var(--card);border:1px solid var(--border);border-radius:8px;cursor:pointer;">Reset filters</button>
+    </div>
+  </main>
+
+  <footer>
+    Built live in <strong>Day 2 of 7 tiny tools</strong>. Free, no signup.
+    Data from <strong>Hacker News API</strong> + <strong>Product Hunt RSS</strong> + <strong>Reddit</strong>, refreshed daily.
+    <a href="https://github.com/jalajj/trend-tapper" class="github">Source ↗</a>
+  </footer>
+
+  <script>
+    // Category label overrides (the select has more options than the data)
+    const CATEGORY_LABELS = {
+      "ai-marketing": "AI & Marketing",
+      "ai-tools": "AI Tools",
+      "content": "Content & Social",
+      "automation": "Automation & Workflow",
+      "ads": "Advertising",
+      "analytics": "Analytics & Attribution",
+      "agency": "Agency Operations",
+      "growth": "Growth & Growth Marketing",
+      "crm": "CRM & Customer Data",
+      "ecommerce": "E-commerce",
+    };
+
+    const btn = document.getElementById("tap");
+    const category = document.getElementById("category");
+    const resultsEl = document.getElementById("results");
+    const loadingEl = document.getElementById("loading");
+    const errorEl = document.getElementById("error-msg");
+    const noResultsEl = document.getElementById("no-results");
+    const metaCategory = document.getElementById("meta-category");
+
+    const badgeLabels = { hot: "🔥 Hot", new: "🆕 New", warm: "☕ Warm", cool: "🧊 Cool" };
+    const fallbackCategory = "ai-marketing";
+
+    // Fetch trends from the generated JSON (updated daily by GitHub Actions)
+    async function fetchTrends() {
+      try {
+        const r = await fetch("static/data/trends.json?v=" + Date.now());
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return await r.json();
+      } catch(e) {
+        throw new Error("Could not load trends data: " + e.message);
+      }
+    }
+
+    function renderTrends(trendsData) {
+      const cat = category.value;
+      const showHot = document.getElementById("show-hot").checked;
+
+      // Get trends for this category, or fallback
+      let trends = trendsData.trends[cat] || [];
+      const hasData = trends.length > 0;
+      let usedFallback = false;
+      if (!hasData) {
+        trends = trendsData.trends[fallbackCategory] || [];
+        usedFallback = true;
+      }
+
+      // Filter by hot only
+      if (showHot) trends = trends.filter(t => t.badges && t.badges.includes("hot"));
+
+      // Shuffle for variety (not a deterministic order)
+      trends = [...trends].sort(() => Math.random() - 0.5);
+
+      // Limit to 10
+      trends = trends.slice(0, 10);
+
+      // Update header meta
+      metaCategory.textContent = CATEGORY_LABELS[cat] || cat;
+
+      // Show category note if we have category_angles data
+      const note = document.getElementById("category-note");
+      if (note) note.style.display = "block";
+
+      if (trends.length === 0) {
+        noResultsEl.style.display = "block";
+        if (showHot) {
+          noResultsEl.innerHTML = '<p>No hot trends in this category right now.</p><p>Try unchecking "Hot trends only" to see warm trends.</p><button id="reset-filters" style="margin-top:1rem;padding:.6rem 1.2rem;background:var(--card);border:1px solid var(--border);border-radius:8px;cursor:pointer;">Reset filters</button>';
+        } else {
+          noResultsEl.innerHTML = '<p>No trends in this category yet.</p><p>We fetch from Hacker News + Product Hunt. Try another category or check back tomorrow.</p><button id="reset-filters" style="margin-top:1rem;padding:.6rem 1.2rem;background:var(--card);border:1px solid var(--border);border-radius:8px;cursor:pointer;">Reset filters</button>';
+        }
+        return;
+      }
+      noResultsEl.style.display = "none";
+
+      let html = "";
+      if (usedFallback) {
+        html += '<div style="background:rgba(234,179,8,.1);border:1px solid rgba(234,179,8,.3);border-radius:10px;padding:.75rem;margin-bottom:1rem;font-size:.8rem;color:var(--yellow);">⚠️ No specific trends for this category. Showing general AI marketing trends instead.</div>';
+      }
+      html += trends.map((t) => {
+        const badgeHtml = (t.badges || []).map(b => {
+          const label = badgeLabels[b] || b;
+          return `<span class="badge ${b}">${label}</span>`;
+        }).join("");
+
+        // Use category-specific angles: each trend has DIFFERENT angle sets per category
+        let angles = (t.category_angles && t.category_angles[cat]) || t.angles || [];
+
+        return `
+          <div class="trend-card" onclick="copyAngles(this)">
+            <div class="trend-header">
+              <div class="trend-title">${escapeHtml(t.title)}</div>
+              <div class="badges">${badgeHtml}</div>
+            </div>
+            <p class="trend-desc">${escapeHtml(t.desc || "No description available.")}</p>
+            <ol class="angles">
+              ${angles.slice(0, 5).map((a, i) => `<li class="angle" data-num="${i+1}"><strong>${escapeHtml(a)}</strong></li>`).join("")}
+            </ol>
+            <div class="source">
+              <span>Source: ${escapeHtml(t.source_name || "?")} · ${escapeHtml(t.date || "?")}</span>
+              <a href="${escapeHtml(t.source_url || "#")}" target="_blank" onclick="event.stopPropagation()">→ Read</a>
+            </div>
+          </div>
+        `;
+      }).join("");
+      resultsEl.innerHTML = html;
+    }
+
+    function escapeHtml(s) {
+      return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    }
+
+    // Click a trend card → copy all angles to clipboard
+    function copyAngles(card) {
+      const title = card.querySelector(".trend-title").textContent;
+      const angles = Array.from(card.querySelectorAll(".angle strong"))
+        .map((el, i) => `${i+1}. ${el.textContent}`)
+        .join("\n");
+      const clip = `${title}\n\n${angles}`;
+      navigator.clipboard.writeText(clip).then(() => {
+        // Show toast
+        const toast = document.createElement("div");
+        toast.innerHTML = "✅ Angles copied to clipboard!";
+        toast.style.cssText = "position:fixed;top:20px;right:20px;background:var(--accent);color:white;padding:12px 20px;border-radius:8px;font-weight:600;z-index:1000;box-shadow:0 4px 12px rgba(0,0,0,.3);";
+        document.body.appendChild(toast);
+        setTimeout(() => toast.remove(), 2000);
+      }).catch(() => {
+        alert("Copy failed. Select the text manually.");
+      });
+    }
+
+    btn.addEventListener("click", async () => {
+      const savedCat = category.value;
+      btn.disabled = true;
+      resultsEl.innerHTML = "";
+      errorEl.innerHTML = "";
+      loadingEl.style.display = "block";
+
+      try {
+        const data = await fetchTrends();
+        renderTrends(data);
+      } catch(e) {
+        errorEl.innerHTML = `<div class="error">${escapeHtml(e.message)}</div>`;
+        loadingEl.style.display = "none";
+      }
+      btn.disabled = false;
+      loadingEl.style.display = "none";
+    });
+
+    // Reset filters button — uses event delegation since the button is inside the hidden no-results div
+    document.addEventListener("click", function(e) {
+      if (e.target && e.target.id === "reset-filters") {
+        document.getElementById("show-hot").checked = true;
+        noResultsEl.style.display = "none";
+      }
+    });
+
+    // Auto-load on first visit
+    btn.click();
+  </script>
+</body>
+</html>
