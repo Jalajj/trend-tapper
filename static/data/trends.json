@@ -1,33 +1,96 @@
 {
-  "generated_at": "2026-09-02T06:59:57Z",
+  "generated_at": "2026-09-02T07:16:20Z",
   "trends": {
-    "ai-tools": [
+    "ai-marketing": [
       {
-        "title": "Claude Fable 5.1 and Claude Mythos 5.1",
-        "desc": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-        "source_url": "https://news.ycombinator.com/item?id=49525378",
-        "source_name": "Hacker News",
+        "title": "Kilo Code for JetBrains",
+        "desc": "\n            Fully native, open-source coding agent built for JetBrains\n          \n\nDiscussion\n            |\n            Link\n",
+        "source_url": "https://www.producthunt.com/products/kilocode",
+        "source_name": "Product Hunt",
         "date": "2026-09-02",
         "badges": [
-          "warm",
+          "hot",
           "new"
         ],
         "category_angles": {
-          "ai-tools": [
-            "The 3 AI tools that replaced my entire tech stack this week",
-            "Testing Claude Fable 5.1 and Claude Mythos 5.1: does it actually save time or just add complexity?",
-            "How we cut costs 40% by adopting Claude Fable 5.1 and Claude Mythos 5.1",
-            "The hidden gotcha nobody mentions about Claude Fable 5.1 and Claude Mythos 5.1",
-            "Why Claude Fable 5.1 and Claude Mythos 5.1 is the tool you should try this week (or skip)"
+          "ai-marketing": [
+            "Why Kilo Code for JetBrains is the biggest shift happening in marketing right now",
+            "How to get started with Kilo Code for JetBrains before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Kilo Code for JetBrains",
+            "Why most marketing teams fail with Kilo Code for JetBrains",
+            "Kilo Code for JetBrains: Overrated or the real deal? Here is my take after testing it"
           ]
         },
-        "primary_category": "ai-tools",
+        "primary_category": "ai-marketing",
         "angles": [
-          "The 3 AI tools that replaced my entire tech stack this week",
-          "Testing Claude Fable 5.1 and Claude Mythos 5.1: does it actually save time or just add complexity?",
-          "How we cut costs 40% by adopting Claude Fable 5.1 and Claude Mythos 5.1",
-          "The hidden gotcha nobody mentions about Claude Fable 5.1 and Claude Mythos 5.1",
-          "Why Claude Fable 5.1 and Claude Mythos 5.1 is the tool you should try this week (or skip)"
+          "Why Kilo Code for JetBrains is the biggest shift happening in marketing right now",
+          "How to get started with Kilo Code for JetBrains before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Kilo Code for JetBrains",
+          "Why most marketing teams fail with Kilo Code for JetBrains",
+          "Kilo Code for JetBrains: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "How to Start a Franchise\u00a0Business (2026 Guide)",
+        "desc": "Key Takeaways Learning how to start a franchise can be a great way to become a business owner. To launch a business, you need to perform market research, file for a license, create a marketing plan, a",
+        "source_url": "https://neilpatel.com/blog/start-franchise-business/",
+        "source_name": "Neil Patel",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why How to Start a Franchise\u00a0Business (2026 Guide) is the biggest shift happening in marketing right now",
+            "How to get started with How to Start a Franchise\u00a0Business (2026 Guide) before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing How to Start a Franchise\u00a0Business (2026 Guide)",
+            "Why most marketing teams fail with How to Start a Franchise\u00a0Business (2026 Guide)",
+            "How to Start a Franchise\u00a0Business (2026 Guide): Overrated or the real deal? Here is my take after testing it"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why How to Start a Franchise\u00a0Business (2026 Guide) is the biggest shift happening in marketing right now",
+          "How to get started with How to Start a Franchise\u00a0Business (2026 Guide) before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing How to Start a Franchise\u00a0Business (2026 Guide)",
+          "Why most marketing teams fail with How to Start a Franchise\u00a0Business (2026 Guide)",
+          "How to Start a Franchise\u00a0Business (2026 Guide): Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+        "desc": "https://danluu.com/zitron/",
+        "source_url": "https://news.ycombinator.com/item?id=49526069",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Ed Zitron's AI skeptic predictions is the biggest shift happening in marketing right now",
+            "How to get started with Ed Zitron's AI skeptic predictions before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Ed Zitron's AI skeptic predictions",
+            "Why most marketing teams fail with Ed Zitron's AI skeptic predictions",
+            "Ed Zitron's AI skeptic predictions: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Ed Zitron's AI skeptic predictions: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Ed Zitron's AI skeptic predictions",
+            "The hidden gotcha nobody mentions about Ed Zitron's AI skeptic predictions",
+            "Why Ed Zitron's AI skeptic predictions is the tool you should try this week (or skip)"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why Ed Zitron's AI skeptic predictions is the biggest shift happening in marketing right now",
+          "How to get started with Ed Zitron's AI skeptic predictions before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Ed Zitron's AI skeptic predictions",
+          "Why most marketing teams fail with Ed Zitron's AI skeptic predictions",
+          "Ed Zitron's AI skeptic predictions: Overrated or the real deal? Here is my take after testing it"
         ]
       },
       {
@@ -37,216 +100,32 @@
         "source_name": "Hacker News",
         "date": "2026-09-02",
         "badges": [
-          "warm",
-          "new"
-        ],
-        "category_angles": {
-          "ai-tools": [
-            "The 3 AI tools that replaced my entire tech stack this week",
-            "Testing The ChatGPT/Codex app bundles a full copy of LibreOffice: does it actually save time or just add complexity?",
-            "How we cut costs 40% by adopting The ChatGPT/Codex app bundles a full copy of LibreOffice",
-            "The hidden gotcha nobody mentions about The ChatGPT/Codex app bundles a full copy of LibreOffice",
-            "Why The ChatGPT/Codex app bundles a full copy of LibreOffice is the tool you should try this week (or skip)"
-          ]
-        },
-        "primary_category": "ai-tools",
-        "angles": [
-          "The 3 AI tools that replaced my entire tech stack this week",
-          "Testing The ChatGPT/Codex app bundles a full copy of LibreOffice: does it actually save time or just add complexity?",
-          "How we cut costs 40% by adopting The ChatGPT/Codex app bundles a full copy of LibreOffice",
-          "The hidden gotcha nobody mentions about The ChatGPT/Codex app bundles a full copy of LibreOffice",
-          "Why The ChatGPT/Codex app bundles a full copy of LibreOffice is the tool you should try this week (or skip)"
-        ]
-      },
-      {
-        "title": "My local model setup on an M4 Pro Mac Mini",
-        "desc": "https://lws.io/blog/my-local-model-setup/",
-        "source_url": "https://news.ycombinator.com/item?id=49529132",
-        "source_name": "Hacker News",
-        "date": "2026-09-02",
-        "badges": [
-          "warm",
-          "new"
-        ],
-        "category_angles": {
-          "ai-tools": [
-            "The 3 AI tools that replaced my entire tech stack this week",
-            "Testing My local model setup on an M4 Pro Mac Mini: does it actually save time or just add complexity?",
-            "How we cut costs 40% by adopting My local model setup on an M4 Pro Mac Mini",
-            "The hidden gotcha nobody mentions about My local model setup on an M4 Pro Mac Mini",
-            "Why My local model setup on an M4 Pro Mac Mini is the tool you should try this week (or skip)"
-          ],
-          "content": [
-            "How My local model setup on an M4 Pro Mac Mini changed our entire content strategy in 7 days",
-            "The My local model setup on an M4 Pro Mac Mini content playbook: 3 tactics that actually work in 2025",
-            "Stop creating content like it is 2020. Try these My local model setup on an M4 Pro Mac Mini approaches instead",
-            "Why My local model setup on an M4 Pro Mac Mini content flops for most teams (and how to fix it)",
-            "My local model setup on an M4 Pro Mac Mini: content in 60 seconds \u2014 the TLDR for busy creators"
-          ]
-        },
-        "primary_category": "ai-tools",
-        "angles": [
-          "The 3 AI tools that replaced my entire tech stack this week",
-          "Testing My local model setup on an M4 Pro Mac Mini: does it actually save time or just add complexity?",
-          "How we cut costs 40% by adopting My local model setup on an M4 Pro Mac Mini",
-          "The hidden gotcha nobody mentions about My local model setup on an M4 Pro Mac Mini",
-          "Why My local model setup on an M4 Pro Mac Mini is the tool you should try this week (or skip)"
-        ]
-      },
-      {
-        "title": "The efficient frontier of LLM inference",
-        "desc": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
-        "source_url": "https://news.ycombinator.com/item?id=49529898",
-        "source_name": "Hacker News",
-        "date": "2026-09-02",
-        "badges": [
-          "warm",
-          "new"
-        ],
-        "category_angles": {
-          "ai-tools": [
-            "The 3 AI tools that replaced my entire tech stack this week",
-            "Testing The efficient frontier of LLM inference: does it actually save time or just add complexity?",
-            "How we cut costs 40% by adopting The efficient frontier of LLM inference",
-            "The hidden gotcha nobody mentions about The efficient frontier of LLM inference",
-            "Why The efficient frontier of LLM inference is the tool you should try this week (or skip)"
-          ],
-          "content": [
-            "How The efficient frontier of LLM inference changed our entire content strategy in 7 days",
-            "The The efficient frontier of LLM inference content playbook: 3 tactics that actually work in 2025",
-            "Stop creating content like it is 2020. Try these The efficient frontier of LLM inference approaches instead",
-            "Why The efficient frontier of LLM inference content flops for most teams (and how to fix it)",
-            "The efficient frontier of LLM inference: content in 60 seconds \u2014 the TLDR for busy creators"
-          ]
-        },
-        "primary_category": "ai-tools",
-        "angles": [
-          "The 3 AI tools that replaced my entire tech stack this week",
-          "Testing The efficient frontier of LLM inference: does it actually save time or just add complexity?",
-          "How we cut costs 40% by adopting The efficient frontier of LLM inference",
-          "The hidden gotcha nobody mentions about The efficient frontier of LLM inference",
-          "Why The efficient frontier of LLM inference is the tool you should try this week (or skip)"
-        ]
-      },
-      {
-        "title": "Atlas: A World Model for Spatial Intelligence",
-        "desc": "https://www.worldlabs.ai/blog/atlas",
-        "source_url": "https://news.ycombinator.com/item?id=49525160",
-        "source_name": "Hacker News",
-        "date": "2026-09-02",
-        "badges": [
-          "warm",
-          "new"
-        ],
-        "category_angles": {
-          "ai-tools": [
-            "The 3 AI tools that replaced my entire tech stack this week",
-            "Testing Atlas: A World Model for Spatial Intelligence: does it actually save time or just add complexity?",
-            "How we cut costs 40% by adopting Atlas: A World Model for Spatial Intelligence",
-            "The hidden gotcha nobody mentions about Atlas: A World Model for Spatial Intelligence",
-            "Why Atlas: A World Model for Spatial Intelligence is the tool you should try this week (or skip)"
-          ],
-          "content": [
-            "How Atlas: A World Model for Spatial Intelligence changed our entire content strategy in 7 days",
-            "The Atlas: A World Model for Spatial Intelligence content playbook: 3 tactics that actually work in 2025",
-            "Stop creating content like it is 2020. Try these Atlas: A World Model for Spatial Intelligence approaches instead",
-            "Why Atlas: A World Model for Spatial Intelligence content flops for most teams (and how to fix it)",
-            "Atlas: A World Model for Spatial Intelligence: content in 60 seconds \u2014 the TLDR for busy creators"
-          ]
-        },
-        "primary_category": "ai-tools",
-        "angles": [
-          "The 3 AI tools that replaced my entire tech stack this week",
-          "Testing Atlas: A World Model for Spatial Intelligence: does it actually save time or just add complexity?",
-          "How we cut costs 40% by adopting Atlas: A World Model for Spatial Intelligence",
-          "The hidden gotcha nobody mentions about Atlas: A World Model for Spatial Intelligence",
-          "Why Atlas: A World Model for Spatial Intelligence is the tool you should try this week (or skip)"
-        ]
-      }
-    ],
-    "ai-marketing": [
-      {
-        "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
-        "desc": "https://danluu.com/zitron/",
-        "source_url": "https://news.ycombinator.com/item?id=49526069",
-        "source_name": "Hacker News",
-        "date": "2026-09-02",
-        "badges": [
-          "warm",
+          "hot",
           "new"
         ],
         "category_angles": {
           "ai-marketing": [
-            "Why How accurate have Ed Zitron's AI skeptic predictions been? is the biggest shift happening in marketing right now",
-            "How to get started with How accurate have Ed Zitron's AI skeptic predictions been? before your competitors do",
-            "The 3 pitfalls nobody talks about when implementing How accurate have Ed Zitron's AI skeptic predictions been?",
-            "Why most marketing teams fail with How accurate have Ed Zitron's AI skeptic predictions been?",
-            "How accurate have Ed Zitron's AI skeptic predictions been?: Overrated or the real deal? Here's my take after testing it"
+            "Why The ChatGPT/Codex app bundles a is the biggest shift happening in marketing right now",
+            "How to get started with The ChatGPT/Codex app bundles a before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing The ChatGPT/Codex app bundles a",
+            "Why most marketing teams fail with The ChatGPT/Codex app bundles a",
+            "The ChatGPT/Codex app bundles a: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing The ChatGPT/Codex app bundles a: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting The ChatGPT/Codex app bundles a",
+            "The hidden gotcha nobody mentions about The ChatGPT/Codex app bundles a",
+            "Why The ChatGPT/Codex app bundles a is the tool you should try this week (or skip)"
           ]
         },
         "primary_category": "ai-marketing",
         "angles": [
-          "Why How accurate have Ed Zitron's AI skeptic predictions been? is the biggest shift happening in marketing right now",
-          "How to get started with How accurate have Ed Zitron's AI skeptic predictions been? before your competitors do",
-          "The 3 pitfalls nobody talks about when implementing How accurate have Ed Zitron's AI skeptic predictions been?",
-          "Why most marketing teams fail with How accurate have Ed Zitron's AI skeptic predictions been?",
-          "How accurate have Ed Zitron's AI skeptic predictions been?: Overrated or the real deal? Here's my take after testing it"
-        ]
-      },
-      {
-        "title": "Path to Astra: critical capabilities and frontier safeguards",
-        "desc": "https://openai.com/index/path-to-astra/",
-        "source_url": "https://news.ycombinator.com/item?id=49527595",
-        "source_name": "Hacker News",
-        "date": "2026-09-02",
-        "badges": [
-          "warm",
-          "new"
-        ],
-        "category_angles": {
-          "ai-marketing": [
-            "Why Path to Astra: critical capabilities and frontier safeguards is the biggest shift happening in marketing right now",
-            "How to get started with Path to Astra: critical capabilities and frontier safeguards before your competitors do",
-            "The 3 pitfalls nobody talks about when implementing Path to Astra: critical capabilities and frontier safeguards",
-            "Why most marketing teams fail with Path to Astra: critical capabilities and frontier safeguards",
-            "Path to Astra: critical capabilities and frontier safeguards: Overrated or the real deal? Here's my take after testing it"
-          ]
-        },
-        "primary_category": "ai-marketing",
-        "angles": [
-          "Why Path to Astra: critical capabilities and frontier safeguards is the biggest shift happening in marketing right now",
-          "How to get started with Path to Astra: critical capabilities and frontier safeguards before your competitors do",
-          "The 3 pitfalls nobody talks about when implementing Path to Astra: critical capabilities and frontier safeguards",
-          "Why most marketing teams fail with Path to Astra: critical capabilities and frontier safeguards",
-          "Path to Astra: critical capabilities and frontier safeguards: Overrated or the real deal? Here's my take after testing it"
-        ]
-      },
-      {
-        "title": "Refurbishing a Tektronix TDS7104 Oscilloscope",
-        "desc": "https://tomverbeure.github.io/2026/08/23/Tektronix-TDS7104-Refurbishing.html",
-        "source_url": "https://news.ycombinator.com/item?id=49527232",
-        "source_name": "Hacker News",
-        "date": "2026-09-02",
-        "badges": [
-          "warm",
-          "new"
-        ],
-        "category_angles": {
-          "ai-marketing": [
-            "Why Refurbishing a Tektronix TDS7104 Oscilloscope is the biggest shift happening in marketing right now",
-            "How to get started with Refurbishing a Tektronix TDS7104 Oscilloscope before your competitors do",
-            "The 3 pitfalls nobody talks about when implementing Refurbishing a Tektronix TDS7104 Oscilloscope",
-            "Why most marketing teams fail with Refurbishing a Tektronix TDS7104 Oscilloscope",
-            "Refurbishing a Tektronix TDS7104 Oscilloscope: Overrated or the real deal? Here's my take after testing it"
-          ]
-        },
-        "primary_category": "ai-marketing",
-        "angles": [
-          "Why Refurbishing a Tektronix TDS7104 Oscilloscope is the biggest shift happening in marketing right now",
-          "How to get started with Refurbishing a Tektronix TDS7104 Oscilloscope before your competitors do",
-          "The 3 pitfalls nobody talks about when implementing Refurbishing a Tektronix TDS7104 Oscilloscope",
-          "Why most marketing teams fail with Refurbishing a Tektronix TDS7104 Oscilloscope",
-          "Refurbishing a Tektronix TDS7104 Oscilloscope: Overrated or the real deal? Here's my take after testing it"
+          "Why The ChatGPT/Codex app bundles a is the biggest shift happening in marketing right now",
+          "How to get started with The ChatGPT/Codex app bundles a before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing The ChatGPT/Codex app bundles a",
+          "Why most marketing teams fail with The ChatGPT/Codex app bundles a",
+          "The ChatGPT/Codex app bundles a: Overrated or the real deal? Here is my take after testing it"
         ]
       },
       {
@@ -261,188 +140,554 @@
         ],
         "category_angles": {
           "ai-marketing": [
-            "Why Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development is the biggest shift happening in marketing right now",
-            "How to get started with Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development before your competitors do",
-            "The 3 pitfalls nobody talks about when implementing Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development",
-            "Why most marketing teams fail with Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development",
-            "Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development: Overrated or the real deal? Here's my take after testing it"
+            "Why Nori Robotics (YC S26) \u2013 is the biggest shift happening in marketing right now",
+            "How to get started with Nori Robotics (YC S26) \u2013 before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Nori Robotics (YC S26) \u2013",
+            "Why most marketing teams fail with Nori Robotics (YC S26) \u2013",
+            "Nori Robotics (YC S26) \u2013: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Nori Robotics (YC S26) \u2013: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Nori Robotics (YC S26) \u2013",
+            "The hidden gotcha nobody mentions about Nori Robotics (YC S26) \u2013",
+            "Why Nori Robotics (YC S26) \u2013 is the tool you should try this week (or skip)"
           ]
         },
         "primary_category": "ai-marketing",
         "angles": [
-          "Why Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development is the biggest shift happening in marketing right now",
-          "How to get started with Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development before your competitors do",
-          "The 3 pitfalls nobody talks about when implementing Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development",
-          "Why most marketing teams fail with Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development",
-          "Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development: Overrated or the real deal? Here's my take after testing it"
+          "Why Nori Robotics (YC S26) \u2013 is the biggest shift happening in marketing right now",
+          "How to get started with Nori Robotics (YC S26) \u2013 before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Nori Robotics (YC S26) \u2013",
+          "Why most marketing teams fail with Nori Robotics (YC S26) \u2013",
+          "Nori Robotics (YC S26) \u2013: Overrated or the real deal? Here is my take after testing it"
         ]
       },
       {
-        "title": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
-        "desc": "https://github.com/carloslfu/slotstream",
-        "source_url": "https://news.ycombinator.com/item?id=49524447",
+        "title": "Path to Astra: critical capabilities and frontier safeguards",
+        "desc": "https://openai.com/index/path-to-astra/",
+        "source_url": "https://news.ycombinator.com/item?id=49527595",
         "source_name": "Hacker News",
         "date": "2026-09-02",
         "badges": [
-          "warm",
+          "hot",
           "new"
         ],
         "category_angles": {
           "ai-marketing": [
-            "Why Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s is the biggest shift happening in marketing right now",
-            "How to get started with Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s before your competitors do",
-            "The 3 pitfalls nobody talks about when implementing Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
-            "Why most marketing teams fail with Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
-            "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s: Overrated or the real deal? Here's my take after testing it"
+            "Why Path to Astra: critical capabilities is the biggest shift happening in marketing right now",
+            "How to get started with Path to Astra: critical capabilities before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Path to Astra: critical capabilities",
+            "Why most marketing teams fail with Path to Astra: critical capabilities",
+            "Path to Astra: critical capabilities: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Path to Astra: critical capabilities: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Path to Astra: critical capabilities",
+            "The hidden gotcha nobody mentions about Path to Astra: critical capabilities",
+            "Why Path to Astra: critical capabilities is the tool you should try this week (or skip)"
           ]
         },
         "primary_category": "ai-marketing",
         "angles": [
-          "Why Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s is the biggest shift happening in marketing right now",
-          "How to get started with Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s before your competitors do",
-          "The 3 pitfalls nobody talks about when implementing Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
-          "Why most marketing teams fail with Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
-          "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s: Overrated or the real deal? Here's my take after testing it"
+          "Why Path to Astra: critical capabilities is the biggest shift happening in marketing right now",
+          "How to get started with Path to Astra: critical capabilities before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Path to Astra: critical capabilities",
+          "Why most marketing teams fail with Path to Astra: critical capabilities",
+          "Path to Astra: critical capabilities: Overrated or the real deal? Here is my take after testing it"
         ]
       },
       {
-        "title": "Ask HN: Who is hiring? (September 2026)",
-        "desc": "please state the location and include remote for remote work, remote (us)\nor similar if the country is restricted, and onsite when remote work is <i>not</i> an option.<p>please only post if you person",
-        "source_url": "https://news.ycombinator.com/item?id=49522897",
+        "title": "Refurbishing a Tektronix TDS7104 Oscilloscope",
+        "desc": "https://tomverbeure.github.io/2026/08/23/Tektronix-TDS7104-Refurbishing.html",
+        "source_url": "https://news.ycombinator.com/item?id=49527232",
         "source_name": "Hacker News",
         "date": "2026-09-02",
         "badges": [
-          "warm",
+          "hot",
           "new"
         ],
         "category_angles": {
           "ai-marketing": [
-            "Why Ask HN: Who is hiring? (September 2026) is the biggest shift happening in marketing right now",
-            "How to get started with Ask HN: Who is hiring? (September 2026) before your competitors do",
-            "The 3 pitfalls nobody talks about when implementing Ask HN: Who is hiring? (September 2026)",
-            "Why most marketing teams fail with Ask HN: Who is hiring? (September 2026)",
-            "Ask HN: Who is hiring? (September 2026): Overrated or the real deal? Here's my take after testing it"
+            "Why Refurbishing a Tektronix TDS7104 Oscilloscope is the biggest shift happening in marketing right now",
+            "How to get started with Refurbishing a Tektronix TDS7104 Oscilloscope before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Refurbishing a Tektronix TDS7104 Oscilloscope",
+            "Why most marketing teams fail with Refurbishing a Tektronix TDS7104 Oscilloscope",
+            "Refurbishing a Tektronix TDS7104 Oscilloscope: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Refurbishing a Tektronix TDS7104 Oscilloscope: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Refurbishing a Tektronix TDS7104 Oscilloscope",
+            "The hidden gotcha nobody mentions about Refurbishing a Tektronix TDS7104 Oscilloscope",
+            "Why Refurbishing a Tektronix TDS7104 Oscilloscope is the tool you should try this week (or skip)"
           ]
         },
         "primary_category": "ai-marketing",
         "angles": [
-          "Why Ask HN: Who is hiring? (September 2026) is the biggest shift happening in marketing right now",
-          "How to get started with Ask HN: Who is hiring? (September 2026) before your competitors do",
-          "The 3 pitfalls nobody talks about when implementing Ask HN: Who is hiring? (September 2026)",
-          "Why most marketing teams fail with Ask HN: Who is hiring? (September 2026)",
-          "Ask HN: Who is hiring? (September 2026): Overrated or the real deal? Here's my take after testing it"
+          "Why Refurbishing a Tektronix TDS7104 Oscilloscope is the biggest shift happening in marketing right now",
+          "How to get started with Refurbishing a Tektronix TDS7104 Oscilloscope before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Refurbishing a Tektronix TDS7104 Oscilloscope",
+          "Why most marketing teams fail with Refurbishing a Tektronix TDS7104 Oscilloscope",
+          "Refurbishing a Tektronix TDS7104 Oscilloscope: Overrated or the real deal? Here is my take after testing it"
         ]
       },
       {
-        "title": "Quill (YC W20) Is Hiring a Fullstack SWE",
-        "desc": "quill | fullstack swe | full-time | remote, pt&#x2f;et hours preferred | $150 - 210k usd + equity | <a href=\"https:&#x2f;&#x2f;quill.co&#x2f;\" rel=\"nofollow\">https:&#x2f;&#x2f;quill.co&#x2f;</a><p>i\u2019m",
-        "source_url": "https://news.ycombinator.com/item?id=49524704",
+        "title": "AI Coding Agent Skills for Real Engineers",
+        "desc": "https://github.com/mattpocock/skills",
+        "source_url": "https://news.ycombinator.com/item?id=49529329",
         "source_name": "Hacker News",
         "date": "2026-09-02",
         "badges": [
-          "warm",
+          "hot",
           "new"
         ],
         "category_angles": {
           "ai-marketing": [
-            "Why Quill (YC W20) Is Hiring a Fullstack SWE is the biggest shift happening in marketing right now",
-            "How to get started with Quill (YC W20) Is Hiring a Fullstack SWE before your competitors do",
-            "The 3 pitfalls nobody talks about when implementing Quill (YC W20) Is Hiring a Fullstack SWE",
-            "Why most marketing teams fail with Quill (YC W20) Is Hiring a Fullstack SWE",
-            "Quill (YC W20) Is Hiring a Fullstack SWE: Overrated or the real deal? Here's my take after testing it"
+            "Why AI Coding Agent Skills for Real Engineers is the biggest shift happening in marketing right now",
+            "How to get started with AI Coding Agent Skills for Real Engineers before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing AI Coding Agent Skills for Real Engineers",
+            "Why most marketing teams fail with AI Coding Agent Skills for Real Engineers",
+            "AI Coding Agent Skills for Real Engineers: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing AI Coding Agent Skills for Real Engineers: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting AI Coding Agent Skills for Real Engineers",
+            "The hidden gotcha nobody mentions about AI Coding Agent Skills for Real Engineers",
+            "Why AI Coding Agent Skills for Real Engineers is the tool you should try this week (or skip)"
           ]
         },
         "primary_category": "ai-marketing",
         "angles": [
-          "Why Quill (YC W20) Is Hiring a Fullstack SWE is the biggest shift happening in marketing right now",
-          "How to get started with Quill (YC W20) Is Hiring a Fullstack SWE before your competitors do",
-          "The 3 pitfalls nobody talks about when implementing Quill (YC W20) Is Hiring a Fullstack SWE",
-          "Why most marketing teams fail with Quill (YC W20) Is Hiring a Fullstack SWE",
-          "Quill (YC W20) Is Hiring a Fullstack SWE: Overrated or the real deal? Here's my take after testing it"
+          "Why AI Coding Agent Skills for Real Engineers is the biggest shift happening in marketing right now",
+          "How to get started with AI Coding Agent Skills for Real Engineers before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing AI Coding Agent Skills for Real Engineers",
+          "Why most marketing teams fail with AI Coding Agent Skills for Real Engineers",
+          "AI Coding Agent Skills for Real Engineers: Overrated or the real deal? Here is my take after testing it"
         ]
       },
       {
-        "title": "Ask HN: Who wants to be hired? (September 2026)",
-        "desc": "share your information if you are looking for work. please use this format:<p><pre><code>  location:\n  remote:\n  willing to relocate:\n  technologies:\n  r\u00e9sum\u00e9&#x2f;cv:\n  email:\n</code></pre>\nplease on",
-        "source_url": "https://news.ycombinator.com/item?id=49522896",
+        "title": "AI is making back-office work extinct",
+        "desc": "https://www.whitecollardream.com/",
+        "source_url": "https://news.ycombinator.com/item?id=49528663",
         "source_name": "Hacker News",
         "date": "2026-09-02",
         "badges": [
-          "warm",
+          "hot",
           "new"
         ],
         "category_angles": {
           "ai-marketing": [
-            "Why Ask HN: Who wants to be hired? (September 2026) is the biggest shift happening in marketing right now",
-            "How to get started with Ask HN: Who wants to be hired? (September 2026) before your competitors do",
-            "The 3 pitfalls nobody talks about when implementing Ask HN: Who wants to be hired? (September 2026)",
-            "Why most marketing teams fail with Ask HN: Who wants to be hired? (September 2026)",
-            "Ask HN: Who wants to be hired? (September 2026): Overrated or the real deal? Here's my take after testing it"
+            "Why AI is making back-office work extinct is the biggest shift happening in marketing right now",
+            "How to get started with AI is making back-office work extinct before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing AI is making back-office work extinct",
+            "Why most marketing teams fail with AI is making back-office work extinct",
+            "AI is making back-office work extinct: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing AI is making back-office work extinct: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting AI is making back-office work extinct",
+            "The hidden gotcha nobody mentions about AI is making back-office work extinct",
+            "Why AI is making back-office work extinct is the tool you should try this week (or skip)"
           ]
         },
         "primary_category": "ai-marketing",
         "angles": [
-          "Why Ask HN: Who wants to be hired? (September 2026) is the biggest shift happening in marketing right now",
-          "How to get started with Ask HN: Who wants to be hired? (September 2026) before your competitors do",
-          "The 3 pitfalls nobody talks about when implementing Ask HN: Who wants to be hired? (September 2026)",
-          "Why most marketing teams fail with Ask HN: Who wants to be hired? (September 2026)",
-          "Ask HN: Who wants to be hired? (September 2026): Overrated or the real deal? Here's my take after testing it"
+          "Why AI is making back-office work extinct is the biggest shift happening in marketing right now",
+          "How to get started with AI is making back-office work extinct before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing AI is making back-office work extinct",
+          "Why most marketing teams fail with AI is making back-office work extinct",
+          "AI is making back-office work extinct: Overrated or the real deal? Here is my take after testing it"
         ]
       },
       {
-        "title": "Gauth AI Course",
-        "desc": "\n            AI courses you can watch, quiz through, and create\n          \n\nDiscussion\n            |\n            Link\n",
-        "source_url": "https://www.producthunt.com/products/gauth-ai-course",
+        "title": "American Airlines mechanic Azriel \u201cAl\u201d Blackman has died",
+        "desc": "https://simpleflying.com/american-airlines-mechanic-passes-away-100-record-80-years/",
+        "source_url": "https://news.ycombinator.com/item?id=49493468",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why American Airlines mechanic Azriel \u201cAl\u201d is the biggest shift happening in marketing right now",
+            "How to get started with American Airlines mechanic Azriel \u201cAl\u201d before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing American Airlines mechanic Azriel \u201cAl\u201d",
+            "Why most marketing teams fail with American Airlines mechanic Azriel \u201cAl\u201d",
+            "American Airlines mechanic Azriel \u201cAl\u201d: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing American Airlines mechanic Azriel \u201cAl\u201d: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting American Airlines mechanic Azriel \u201cAl\u201d",
+            "The hidden gotcha nobody mentions about American Airlines mechanic Azriel \u201cAl\u201d",
+            "Why American Airlines mechanic Azriel \u201cAl\u201d is the tool you should try this week (or skip)"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why American Airlines mechanic Azriel \u201cAl\u201d is the biggest shift happening in marketing right now",
+          "How to get started with American Airlines mechanic Azriel \u201cAl\u201d before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing American Airlines mechanic Azriel \u201cAl\u201d",
+          "Why most marketing teams fail with American Airlines mechanic Azriel \u201cAl\u201d",
+          "American Airlines mechanic Azriel \u201cAl\u201d: Overrated or the real deal? Here is my take after testing it"
+        ]
+      }
+    ],
+    "ai-tools": [
+      {
+        "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+        "desc": "https://danluu.com/zitron/",
+        "source_url": "https://news.ycombinator.com/item?id=49526069",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Ed Zitron's AI skeptic predictions is the biggest shift happening in marketing right now",
+            "How to get started with Ed Zitron's AI skeptic predictions before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Ed Zitron's AI skeptic predictions",
+            "Why most marketing teams fail with Ed Zitron's AI skeptic predictions",
+            "Ed Zitron's AI skeptic predictions: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Ed Zitron's AI skeptic predictions: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Ed Zitron's AI skeptic predictions",
+            "The hidden gotcha nobody mentions about Ed Zitron's AI skeptic predictions",
+            "Why Ed Zitron's AI skeptic predictions is the tool you should try this week (or skip)"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why Ed Zitron's AI skeptic predictions is the biggest shift happening in marketing right now",
+          "How to get started with Ed Zitron's AI skeptic predictions before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Ed Zitron's AI skeptic predictions",
+          "Why most marketing teams fail with Ed Zitron's AI skeptic predictions",
+          "Ed Zitron's AI skeptic predictions: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+        "desc": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+        "source_url": "https://news.ycombinator.com/item?id=49527396",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why The ChatGPT/Codex app bundles a is the biggest shift happening in marketing right now",
+            "How to get started with The ChatGPT/Codex app bundles a before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing The ChatGPT/Codex app bundles a",
+            "Why most marketing teams fail with The ChatGPT/Codex app bundles a",
+            "The ChatGPT/Codex app bundles a: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing The ChatGPT/Codex app bundles a: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting The ChatGPT/Codex app bundles a",
+            "The hidden gotcha nobody mentions about The ChatGPT/Codex app bundles a",
+            "Why The ChatGPT/Codex app bundles a is the tool you should try this week (or skip)"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why The ChatGPT/Codex app bundles a is the biggest shift happening in marketing right now",
+          "How to get started with The ChatGPT/Codex app bundles a before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing The ChatGPT/Codex app bundles a",
+          "Why most marketing teams fail with The ChatGPT/Codex app bundles a",
+          "The ChatGPT/Codex app bundles a: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development",
+        "desc": "https://www.norirobotics.com/",
+        "source_url": "https://news.ycombinator.com/item?id=49525153",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Nori Robotics (YC S26) \u2013 is the biggest shift happening in marketing right now",
+            "How to get started with Nori Robotics (YC S26) \u2013 before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Nori Robotics (YC S26) \u2013",
+            "Why most marketing teams fail with Nori Robotics (YC S26) \u2013",
+            "Nori Robotics (YC S26) \u2013: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Nori Robotics (YC S26) \u2013: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Nori Robotics (YC S26) \u2013",
+            "The hidden gotcha nobody mentions about Nori Robotics (YC S26) \u2013",
+            "Why Nori Robotics (YC S26) \u2013 is the tool you should try this week (or skip)"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why Nori Robotics (YC S26) \u2013 is the biggest shift happening in marketing right now",
+          "How to get started with Nori Robotics (YC S26) \u2013 before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Nori Robotics (YC S26) \u2013",
+          "Why most marketing teams fail with Nori Robotics (YC S26) \u2013",
+          "Nori Robotics (YC S26) \u2013: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "Path to Astra: critical capabilities and frontier safeguards",
+        "desc": "https://openai.com/index/path-to-astra/",
+        "source_url": "https://news.ycombinator.com/item?id=49527595",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Path to Astra: critical capabilities is the biggest shift happening in marketing right now",
+            "How to get started with Path to Astra: critical capabilities before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Path to Astra: critical capabilities",
+            "Why most marketing teams fail with Path to Astra: critical capabilities",
+            "Path to Astra: critical capabilities: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Path to Astra: critical capabilities: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Path to Astra: critical capabilities",
+            "The hidden gotcha nobody mentions about Path to Astra: critical capabilities",
+            "Why Path to Astra: critical capabilities is the tool you should try this week (or skip)"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why Path to Astra: critical capabilities is the biggest shift happening in marketing right now",
+          "How to get started with Path to Astra: critical capabilities before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Path to Astra: critical capabilities",
+          "Why most marketing teams fail with Path to Astra: critical capabilities",
+          "Path to Astra: critical capabilities: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "Refurbishing a Tektronix TDS7104 Oscilloscope",
+        "desc": "https://tomverbeure.github.io/2026/08/23/Tektronix-TDS7104-Refurbishing.html",
+        "source_url": "https://news.ycombinator.com/item?id=49527232",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Refurbishing a Tektronix TDS7104 Oscilloscope is the biggest shift happening in marketing right now",
+            "How to get started with Refurbishing a Tektronix TDS7104 Oscilloscope before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Refurbishing a Tektronix TDS7104 Oscilloscope",
+            "Why most marketing teams fail with Refurbishing a Tektronix TDS7104 Oscilloscope",
+            "Refurbishing a Tektronix TDS7104 Oscilloscope: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Refurbishing a Tektronix TDS7104 Oscilloscope: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Refurbishing a Tektronix TDS7104 Oscilloscope",
+            "The hidden gotcha nobody mentions about Refurbishing a Tektronix TDS7104 Oscilloscope",
+            "Why Refurbishing a Tektronix TDS7104 Oscilloscope is the tool you should try this week (or skip)"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why Refurbishing a Tektronix TDS7104 Oscilloscope is the biggest shift happening in marketing right now",
+          "How to get started with Refurbishing a Tektronix TDS7104 Oscilloscope before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Refurbishing a Tektronix TDS7104 Oscilloscope",
+          "Why most marketing teams fail with Refurbishing a Tektronix TDS7104 Oscilloscope",
+          "Refurbishing a Tektronix TDS7104 Oscilloscope: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "AI Coding Agent Skills for Real Engineers",
+        "desc": "https://github.com/mattpocock/skills",
+        "source_url": "https://news.ycombinator.com/item?id=49529329",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why AI Coding Agent Skills for Real Engineers is the biggest shift happening in marketing right now",
+            "How to get started with AI Coding Agent Skills for Real Engineers before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing AI Coding Agent Skills for Real Engineers",
+            "Why most marketing teams fail with AI Coding Agent Skills for Real Engineers",
+            "AI Coding Agent Skills for Real Engineers: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing AI Coding Agent Skills for Real Engineers: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting AI Coding Agent Skills for Real Engineers",
+            "The hidden gotcha nobody mentions about AI Coding Agent Skills for Real Engineers",
+            "Why AI Coding Agent Skills for Real Engineers is the tool you should try this week (or skip)"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why AI Coding Agent Skills for Real Engineers is the biggest shift happening in marketing right now",
+          "How to get started with AI Coding Agent Skills for Real Engineers before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing AI Coding Agent Skills for Real Engineers",
+          "Why most marketing teams fail with AI Coding Agent Skills for Real Engineers",
+          "AI Coding Agent Skills for Real Engineers: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "AI is making back-office work extinct",
+        "desc": "https://www.whitecollardream.com/",
+        "source_url": "https://news.ycombinator.com/item?id=49528663",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why AI is making back-office work extinct is the biggest shift happening in marketing right now",
+            "How to get started with AI is making back-office work extinct before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing AI is making back-office work extinct",
+            "Why most marketing teams fail with AI is making back-office work extinct",
+            "AI is making back-office work extinct: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing AI is making back-office work extinct: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting AI is making back-office work extinct",
+            "The hidden gotcha nobody mentions about AI is making back-office work extinct",
+            "Why AI is making back-office work extinct is the tool you should try this week (or skip)"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why AI is making back-office work extinct is the biggest shift happening in marketing right now",
+          "How to get started with AI is making back-office work extinct before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing AI is making back-office work extinct",
+          "Why most marketing teams fail with AI is making back-office work extinct",
+          "AI is making back-office work extinct: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "American Airlines mechanic Azriel \u201cAl\u201d Blackman has died",
+        "desc": "https://simpleflying.com/american-airlines-mechanic-passes-away-100-record-80-years/",
+        "source_url": "https://news.ycombinator.com/item?id=49493468",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why American Airlines mechanic Azriel \u201cAl\u201d is the biggest shift happening in marketing right now",
+            "How to get started with American Airlines mechanic Azriel \u201cAl\u201d before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing American Airlines mechanic Azriel \u201cAl\u201d",
+            "Why most marketing teams fail with American Airlines mechanic Azriel \u201cAl\u201d",
+            "American Airlines mechanic Azriel \u201cAl\u201d: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing American Airlines mechanic Azriel \u201cAl\u201d: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting American Airlines mechanic Azriel \u201cAl\u201d",
+            "The hidden gotcha nobody mentions about American Airlines mechanic Azriel \u201cAl\u201d",
+            "Why American Airlines mechanic Azriel \u201cAl\u201d is the tool you should try this week (or skip)"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why American Airlines mechanic Azriel \u201cAl\u201d is the biggest shift happening in marketing right now",
+          "How to get started with American Airlines mechanic Azriel \u201cAl\u201d before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing American Airlines mechanic Azriel \u201cAl\u201d",
+          "Why most marketing teams fail with American Airlines mechanic Azriel \u201cAl\u201d",
+          "American Airlines mechanic Azriel \u201cAl\u201d: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "How bicycle coaster brakes work (2018)",
+        "desc": "https://www.dougbarnesauthor.com/2018/06/how-bicycle-coaster-brakes-work.html",
+        "source_url": "https://news.ycombinator.com/item?id=49488224",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why How bicycle coaster brakes work (2018) is the biggest shift happening in marketing right now",
+            "How to get started with How bicycle coaster brakes work (2018) before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing How bicycle coaster brakes work (2018)",
+            "Why most marketing teams fail with How bicycle coaster brakes work (2018)",
+            "How bicycle coaster brakes work (2018): Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing How bicycle coaster brakes work (2018): does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting How bicycle coaster brakes work (2018)",
+            "The hidden gotcha nobody mentions about How bicycle coaster brakes work (2018)",
+            "Why How bicycle coaster brakes work (2018) is the tool you should try this week (or skip)"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why How bicycle coaster brakes work (2018) is the biggest shift happening in marketing right now",
+          "How to get started with How bicycle coaster brakes work (2018) before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing How bicycle coaster brakes work (2018)",
+          "Why most marketing teams fail with How bicycle coaster brakes work (2018)",
+          "How bicycle coaster brakes work (2018): Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "Parasocial",
+        "desc": "\n            Listening to podcasts should be a joy. So let's get started.\n          \n\nDiscussion\n            |\n            Link\n",
+        "source_url": "https://www.producthunt.com/products/parasocial",
         "source_name": "Product Hunt",
         "date": "2026-09-02",
         "badges": [
-          "warm",
+          "hot",
           "new"
         ],
         "category_angles": {
           "ai-marketing": [
-            "Why Gauth AI Course is the biggest shift happening in marketing right now",
-            "How to get started with Gauth AI Course before your competitors do",
-            "The 3 pitfalls nobody talks about when implementing Gauth AI Course",
-            "Why most marketing teams fail with Gauth AI Course",
-            "Gauth AI Course: Overrated or the real deal? Here's my take after testing it"
+            "Why Parasocial is the biggest shift happening in marketing right now",
+            "How to get started with Parasocial before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Parasocial",
+            "Why most marketing teams fail with Parasocial",
+            "Parasocial: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Parasocial: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Parasocial",
+            "The hidden gotcha nobody mentions about Parasocial",
+            "Why Parasocial is the tool you should try this week (or skip)"
           ]
         },
         "primary_category": "ai-marketing",
         "angles": [
-          "Why Gauth AI Course is the biggest shift happening in marketing right now",
-          "How to get started with Gauth AI Course before your competitors do",
-          "The 3 pitfalls nobody talks about when implementing Gauth AI Course",
-          "Why most marketing teams fail with Gauth AI Course",
-          "Gauth AI Course: Overrated or the real deal? Here's my take after testing it"
-        ]
-      },
-      {
-        "title": "Cosmic Agent Plugins",
-        "desc": "\n            Connect Cosmic agents to any service with an MCP server\n          \n\nDiscussion\n            |\n            Link\n",
-        "source_url": "https://www.producthunt.com/products/cosmic",
-        "source_name": "Product Hunt",
-        "date": "2026-09-02",
-        "badges": [
-          "warm",
-          "new"
-        ],
-        "category_angles": {
-          "ai-marketing": [
-            "Why Cosmic Agent Plugins is the biggest shift happening in marketing right now",
-            "How to get started with Cosmic Agent Plugins before your competitors do",
-            "The 3 pitfalls nobody talks about when implementing Cosmic Agent Plugins",
-            "Why most marketing teams fail with Cosmic Agent Plugins",
-            "Cosmic Agent Plugins: Overrated or the real deal? Here's my take after testing it"
-          ]
-        },
-        "primary_category": "ai-marketing",
-        "angles": [
-          "Why Cosmic Agent Plugins is the biggest shift happening in marketing right now",
-          "How to get started with Cosmic Agent Plugins before your competitors do",
-          "The 3 pitfalls nobody talks about when implementing Cosmic Agent Plugins",
-          "Why most marketing teams fail with Cosmic Agent Plugins",
-          "Cosmic Agent Plugins: Overrated or the real deal? Here's my take after testing it"
+          "Why Parasocial is the biggest shift happening in marketing right now",
+          "How to get started with Parasocial before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Parasocial",
+          "Why most marketing teams fail with Parasocial",
+          "Parasocial: Overrated or the real deal? Here is my take after testing it"
         ]
       }
     ],
@@ -454,25 +699,25 @@
         "source_name": "Hacker News",
         "date": "2026-09-02",
         "badges": [
-          "warm",
+          "hot",
           "new"
         ],
         "category_angles": {
           "content": [
-            "How Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos changed our entire content strategy in 7 days",
-            "The Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos content playbook: 3 tactics that actually work in 2025",
-            "Stop creating content like it is 2020. Try these Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos approaches instead",
-            "Why Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos content flops for most teams (and how to fix it)",
-            "Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos: content in 60 seconds \u2014 the TLDR for busy creators"
+            "How Weedout \u2013 Safari extension that changed our entire content strategy in 7 days",
+            "The Weedout \u2013 Safari extension that content playbook: 3 tactics that actually work in 2025",
+            "Stop creating content like it is 2020. Try these Weedout \u2013 Safari extension that approaches instead",
+            "Why Weedout \u2013 Safari extension that content flops for most teams (and how to fix it)",
+            "Weedout \u2013 Safari extension that: content in 60 seconds - the TLDR for busy creators"
           ]
         },
         "primary_category": "content",
         "angles": [
-          "How Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos changed our entire content strategy in 7 days",
-          "The Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos content playbook: 3 tactics that actually work in 2025",
-          "Stop creating content like it is 2020. Try these Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos approaches instead",
-          "Why Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos content flops for most teams (and how to fix it)",
-          "Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos: content in 60 seconds \u2014 the TLDR for busy creators"
+          "How Weedout \u2013 Safari extension that changed our entire content strategy in 7 days",
+          "The Weedout \u2013 Safari extension that content playbook: 3 tactics that actually work in 2025",
+          "Stop creating content like it is 2020. Try these Weedout \u2013 Safari extension that approaches instead",
+          "Why Weedout \u2013 Safari extension that content flops for most teams (and how to fix it)",
+          "Weedout \u2013 Safari extension that: content in 60 seconds - the TLDR for busy creators"
         ]
       },
       {
@@ -482,10 +727,17 @@
         "source_name": "Hacker News",
         "date": "2026-09-02",
         "badges": [
-          "warm",
+          "hot",
           "new"
         ],
         "category_angles": {
+          "ai-marketing": [
+            "Why My local model setup on an M4 Pro Mac Mini is the biggest shift happening in marketing right now",
+            "How to get started with My local model setup on an M4 Pro Mac Mini before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing My local model setup on an M4 Pro Mac Mini",
+            "Why most marketing teams fail with My local model setup on an M4 Pro Mac Mini",
+            "My local model setup on an M4 Pro Mac Mini: Overrated or the real deal? Here is my take after testing it"
+          ],
           "ai-tools": [
             "The 3 AI tools that replaced my entire tech stack this week",
             "Testing My local model setup on an M4 Pro Mac Mini: does it actually save time or just add complexity?",
@@ -498,16 +750,16 @@
             "The My local model setup on an M4 Pro Mac Mini content playbook: 3 tactics that actually work in 2025",
             "Stop creating content like it is 2020. Try these My local model setup on an M4 Pro Mac Mini approaches instead",
             "Why My local model setup on an M4 Pro Mac Mini content flops for most teams (and how to fix it)",
-            "My local model setup on an M4 Pro Mac Mini: content in 60 seconds \u2014 the TLDR for busy creators"
+            "My local model setup on an M4 Pro Mac Mini: content in 60 seconds - the TLDR for busy creators"
           ]
         },
-        "primary_category": "ai-tools",
+        "primary_category": "ai-marketing",
         "angles": [
-          "The 3 AI tools that replaced my entire tech stack this week",
-          "Testing My local model setup on an M4 Pro Mac Mini: does it actually save time or just add complexity?",
-          "How we cut costs 40% by adopting My local model setup on an M4 Pro Mac Mini",
-          "The hidden gotcha nobody mentions about My local model setup on an M4 Pro Mac Mini",
-          "Why My local model setup on an M4 Pro Mac Mini is the tool you should try this week (or skip)"
+          "Why My local model setup on an M4 Pro Mac Mini is the biggest shift happening in marketing right now",
+          "How to get started with My local model setup on an M4 Pro Mac Mini before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing My local model setup on an M4 Pro Mac Mini",
+          "Why most marketing teams fail with My local model setup on an M4 Pro Mac Mini",
+          "My local model setup on an M4 Pro Mac Mini: Overrated or the real deal? Here is my take after testing it"
         ]
       },
       {
@@ -517,10 +769,17 @@
         "source_name": "Hacker News",
         "date": "2026-09-02",
         "badges": [
-          "warm",
+          "hot",
           "new"
         ],
         "category_angles": {
+          "ai-marketing": [
+            "Why The efficient frontier of LLM inference is the biggest shift happening in marketing right now",
+            "How to get started with The efficient frontier of LLM inference before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing The efficient frontier of LLM inference",
+            "Why most marketing teams fail with The efficient frontier of LLM inference",
+            "The efficient frontier of LLM inference: Overrated or the real deal? Here is my take after testing it"
+          ],
           "ai-tools": [
             "The 3 AI tools that replaced my entire tech stack this week",
             "Testing The efficient frontier of LLM inference: does it actually save time or just add complexity?",
@@ -533,16 +792,16 @@
             "The The efficient frontier of LLM inference content playbook: 3 tactics that actually work in 2025",
             "Stop creating content like it is 2020. Try these The efficient frontier of LLM inference approaches instead",
             "Why The efficient frontier of LLM inference content flops for most teams (and how to fix it)",
-            "The efficient frontier of LLM inference: content in 60 seconds \u2014 the TLDR for busy creators"
+            "The efficient frontier of LLM inference: content in 60 seconds - the TLDR for busy creators"
           ]
         },
-        "primary_category": "ai-tools",
+        "primary_category": "ai-marketing",
         "angles": [
-          "The 3 AI tools that replaced my entire tech stack this week",
-          "Testing The efficient frontier of LLM inference: does it actually save time or just add complexity?",
-          "How we cut costs 40% by adopting The efficient frontier of LLM inference",
-          "The hidden gotcha nobody mentions about The efficient frontier of LLM inference",
-          "Why The efficient frontier of LLM inference is the tool you should try this week (or skip)"
+          "Why The efficient frontier of LLM inference is the biggest shift happening in marketing right now",
+          "How to get started with The efficient frontier of LLM inference before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing The efficient frontier of LLM inference",
+          "Why most marketing teams fail with The efficient frontier of LLM inference",
+          "The efficient frontier of LLM inference: Overrated or the real deal? Here is my take after testing it"
         ]
       },
       {
@@ -552,10 +811,17 @@
         "source_name": "Hacker News",
         "date": "2026-09-02",
         "badges": [
-          "warm",
+          "hot",
           "new"
         ],
         "category_angles": {
+          "ai-marketing": [
+            "Why Atlas: A World Model for Spatial Intelligence is the biggest shift happening in marketing right now",
+            "How to get started with Atlas: A World Model for Spatial Intelligence before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Atlas: A World Model for Spatial Intelligence",
+            "Why most marketing teams fail with Atlas: A World Model for Spatial Intelligence",
+            "Atlas: A World Model for Spatial Intelligence: Overrated or the real deal? Here is my take after testing it"
+          ],
           "ai-tools": [
             "The 3 AI tools that replaced my entire tech stack this week",
             "Testing Atlas: A World Model for Spatial Intelligence: does it actually save time or just add complexity?",
@@ -568,81 +834,556 @@
             "The Atlas: A World Model for Spatial Intelligence content playbook: 3 tactics that actually work in 2025",
             "Stop creating content like it is 2020. Try these Atlas: A World Model for Spatial Intelligence approaches instead",
             "Why Atlas: A World Model for Spatial Intelligence content flops for most teams (and how to fix it)",
-            "Atlas: A World Model for Spatial Intelligence: content in 60 seconds \u2014 the TLDR for busy creators"
-          ]
-        },
-        "primary_category": "ai-tools",
-        "angles": [
-          "The 3 AI tools that replaced my entire tech stack this week",
-          "Testing Atlas: A World Model for Spatial Intelligence: does it actually save time or just add complexity?",
-          "How we cut costs 40% by adopting Atlas: A World Model for Spatial Intelligence",
-          "The hidden gotcha nobody mentions about Atlas: A World Model for Spatial Intelligence",
-          "Why Atlas: A World Model for Spatial Intelligence is the tool you should try this week (or skip)"
-        ]
-      },
-      {
-        "title": "Video Agent by Fotor",
-        "desc": "\n            Create and edit precision motion graphics & video with chat\n          \n\nDiscussion\n            |\n            Link\n",
-        "source_url": "https://www.producthunt.com/products/fotor",
-        "source_name": "Product Hunt",
-        "date": "2026-09-02",
-        "badges": [
-          "warm",
-          "new"
-        ],
-        "category_angles": {
-          "ai-marketing": [
-            "Why Video Agent by Fotor is the biggest shift happening in marketing right now",
-            "How to get started with Video Agent by Fotor before your competitors do",
-            "The 3 pitfalls nobody talks about when implementing Video Agent by Fotor",
-            "Why most marketing teams fail with Video Agent by Fotor",
-            "Video Agent by Fotor: Overrated or the real deal? Here's my take after testing it"
-          ],
-          "content": [
-            "How Video Agent by Fotor changed our entire content strategy in 7 days",
-            "The Video Agent by Fotor content playbook: 3 tactics that actually work in 2025",
-            "Stop creating content like it is 2020. Try these Video Agent by Fotor approaches instead",
-            "Why Video Agent by Fotor content flops for most teams (and how to fix it)",
-            "Video Agent by Fotor: content in 60 seconds \u2014 the TLDR for busy creators"
+            "Atlas: A World Model for Spatial Intelligence: content in 60 seconds - the TLDR for busy creators"
           ]
         },
         "primary_category": "ai-marketing",
         "angles": [
-          "Why Video Agent by Fotor is the biggest shift happening in marketing right now",
-          "How to get started with Video Agent by Fotor before your competitors do",
-          "The 3 pitfalls nobody talks about when implementing Video Agent by Fotor",
-          "Why most marketing teams fail with Video Agent by Fotor",
-          "Video Agent by Fotor: Overrated or the real deal? Here's my take after testing it"
+          "Why Atlas: A World Model for Spatial Intelligence is the biggest shift happening in marketing right now",
+          "How to get started with Atlas: A World Model for Spatial Intelligence before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Atlas: A World Model for Spatial Intelligence",
+          "Why most marketing teams fail with Atlas: A World Model for Spatial Intelligence",
+          "Atlas: A World Model for Spatial Intelligence: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+        "desc": "https://mvakde.github.io/blog/44-on-arc-1/",
+        "source_url": "https://news.ycombinator.com/item?id=49519939",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why I trained a small transformer is the biggest shift happening in marketing right now",
+            "How to get started with I trained a small transformer before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing I trained a small transformer",
+            "Why most marketing teams fail with I trained a small transformer",
+            "I trained a small transformer: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing I trained a small transformer: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting I trained a small transformer",
+            "The hidden gotcha nobody mentions about I trained a small transformer",
+            "Why I trained a small transformer is the tool you should try this week (or skip)"
+          ],
+          "content": [
+            "How I trained a small transformer changed our entire content strategy in 7 days",
+            "The I trained a small transformer content playbook: 3 tactics that actually work in 2025",
+            "Stop creating content like it is 2020. Try these I trained a small transformer approaches instead",
+            "Why I trained a small transformer content flops for most teams (and how to fix it)",
+            "I trained a small transformer: content in 60 seconds - the TLDR for busy creators"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why I trained a small transformer is the biggest shift happening in marketing right now",
+          "How to get started with I trained a small transformer before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing I trained a small transformer",
+          "Why most marketing teams fail with I trained a small transformer",
+          "I trained a small transformer: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "AI Can Make You Suck Faster Too",
+        "desc": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
+        "source_url": "https://news.ycombinator.com/item?id=49518316",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why AI Can Make You Suck Faster Too is the biggest shift happening in marketing right now",
+            "How to get started with AI Can Make You Suck Faster Too before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing AI Can Make You Suck Faster Too",
+            "Why most marketing teams fail with AI Can Make You Suck Faster Too",
+            "AI Can Make You Suck Faster Too: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing AI Can Make You Suck Faster Too: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting AI Can Make You Suck Faster Too",
+            "The hidden gotcha nobody mentions about AI Can Make You Suck Faster Too",
+            "Why AI Can Make You Suck Faster Too is the tool you should try this week (or skip)"
+          ],
+          "content": [
+            "How AI Can Make You Suck Faster Too changed our entire content strategy in 7 days",
+            "The AI Can Make You Suck Faster Too content playbook: 3 tactics that actually work in 2025",
+            "Stop creating content like it is 2020. Try these AI Can Make You Suck Faster Too approaches instead",
+            "Why AI Can Make You Suck Faster Too content flops for most teams (and how to fix it)",
+            "AI Can Make You Suck Faster Too: content in 60 seconds - the TLDR for busy creators"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why AI Can Make You Suck Faster Too is the biggest shift happening in marketing right now",
+          "How to get started with AI Can Make You Suck Faster Too before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing AI Can Make You Suck Faster Too",
+          "Why most marketing teams fail with AI Can Make You Suck Faster Too",
+          "AI Can Make You Suck Faster Too: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "How to rank in ChatGPT search: 8 steps to improve visibility",
+        "desc": "Rank in ChatGPT search by making your content easy for AI systems to extract and by building off-site consensus.",
+        "source_url": "https://www.semrush.com/blog/chatgpt-search/",
+        "source_name": "SEMrush",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why How to rank in ChatGPT is the biggest shift happening in marketing right now",
+            "How to get started with How to rank in ChatGPT before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing How to rank in ChatGPT",
+            "Why most marketing teams fail with How to rank in ChatGPT",
+            "How to rank in ChatGPT: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing How to rank in ChatGPT: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting How to rank in ChatGPT",
+            "The hidden gotcha nobody mentions about How to rank in ChatGPT",
+            "Why How to rank in ChatGPT is the tool you should try this week (or skip)"
+          ],
+          "content": [
+            "How How to rank in ChatGPT changed our entire content strategy in 7 days",
+            "The How to rank in ChatGPT content playbook: 3 tactics that actually work in 2025",
+            "Stop creating content like it is 2020. Try these How to rank in ChatGPT approaches instead",
+            "Why How to rank in ChatGPT content flops for most teams (and how to fix it)",
+            "How to rank in ChatGPT: content in 60 seconds - the TLDR for busy creators"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why How to rank in ChatGPT is the biggest shift happening in marketing right now",
+          "How to get started with How to rank in ChatGPT before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing How to rank in ChatGPT",
+          "Why most marketing teams fail with How to rank in ChatGPT",
+          "How to rank in ChatGPT: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "8 Best AI Content Marketing Tools for 2026 (Tried & Tested)",
+        "desc": "The best AI content marketing tools include Semrush\u2018s AI Visibility Toolkit and ChatGPT.",
+        "source_url": "https://www.semrush.com/blog/best-ai-content-marketing-tools/",
+        "source_name": "SEMrush",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why 8 Best AI Content Marketing is the biggest shift happening in marketing right now",
+            "How to get started with 8 Best AI Content Marketing before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing 8 Best AI Content Marketing",
+            "Why most marketing teams fail with 8 Best AI Content Marketing",
+            "8 Best AI Content Marketing: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing 8 Best AI Content Marketing: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting 8 Best AI Content Marketing",
+            "The hidden gotcha nobody mentions about 8 Best AI Content Marketing",
+            "Why 8 Best AI Content Marketing is the tool you should try this week (or skip)"
+          ],
+          "content": [
+            "How 8 Best AI Content Marketing changed our entire content strategy in 7 days",
+            "The 8 Best AI Content Marketing content playbook: 3 tactics that actually work in 2025",
+            "Stop creating content like it is 2020. Try these 8 Best AI Content Marketing approaches instead",
+            "Why 8 Best AI Content Marketing content flops for most teams (and how to fix it)",
+            "8 Best AI Content Marketing: content in 60 seconds - the TLDR for busy creators"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why 8 Best AI Content Marketing is the biggest shift happening in marketing right now",
+          "How to get started with 8 Best AI Content Marketing before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing 8 Best AI Content Marketing",
+          "Why most marketing teams fail with 8 Best AI Content Marketing",
+          "8 Best AI Content Marketing: Overrated or the real deal? Here is my take after testing it"
+        ]
+      }
+    ],
+    "ads": [
+      {
+        "title": "Best PPC Companies of 2026",
+        "desc": "Key Takeaways Pay-per-click (PPC) advertising delivers\u00a0an average\u00a0return on investment (ROI)\u00a0of\u202f200 percent.\u00a0\u00a0 Marketers are taking notice.\u00a0About\u202f93 percent\u202fof\u00a0them\u00a0view PPC advertising\u00a0as\u00a0effective o",
+        "source_url": "https://neilpatel.com/blog/ppc-companies/",
+        "source_name": "Neil Patel",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ads": [
+            "How Best PPC Companies of 2026 boosted our ROAS by 3x in one week",
+            "The Best PPC Companies of 2026 ad strategy that broke our ad account (and how we recovered)",
+            "Why Best PPC Companies of 2026 gets banned in most ad accounts (and how to use it legally)",
+            "Best PPC Companies of 2026: the ad hack nobody is talking about in 2025",
+            "We spent 100 on Best PPC Companies of 2026 and 1000 on lessons. Here is what happened"
+          ]
+        },
+        "primary_category": "ads",
+        "angles": [
+          "How Best PPC Companies of 2026 boosted our ROAS by 3x in one week",
+          "The Best PPC Companies of 2026 ad strategy that broke our ad account (and how we recovered)",
+          "Why Best PPC Companies of 2026 gets banned in most ad accounts (and how to use it legally)",
+          "Best PPC Companies of 2026: the ad hack nobody is talking about in 2025",
+          "We spent 100 on Best PPC Companies of 2026 and 1000 on lessons. Here is what happened"
+        ]
+      },
+      {
+        "title": "Paid Media Forecasting: How to Predict Ad Performance (Without Getting It Wrong)",
+        "desc": "Key Takeaways Your forecast said this campaign would hit a 4x ROAS by month two. Instead, CPCs are up, CTR is sliding, and leadership is asking questions you don\u2019t have good answers to. This isn\u2019t a s",
+        "source_url": "https://neilpatel.com/blog/paid-media-forecasting/",
+        "source_name": "Neil Patel",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ads": [
+            "How Paid Media Forecasting: How to boosted our ROAS by 3x in one week",
+            "The Paid Media Forecasting: How to ad strategy that broke our ad account (and how we recovered)",
+            "Why Paid Media Forecasting: How to gets banned in most ad accounts (and how to use it legally)",
+            "Paid Media Forecasting: How to: the ad hack nobody is talking about in 2025",
+            "We spent 100 on Paid Media Forecasting: How to and 1000 on lessons. Here is what happened"
+          ]
+        },
+        "primary_category": "ads",
+        "angles": [
+          "How Paid Media Forecasting: How to boosted our ROAS by 3x in one week",
+          "The Paid Media Forecasting: How to ad strategy that broke our ad account (and how we recovered)",
+          "Why Paid Media Forecasting: How to gets banned in most ad accounts (and how to use it legally)",
+          "Paid Media Forecasting: How to: the ad hack nobody is talking about in 2025",
+          "We spent 100 on Paid Media Forecasting: How to and 1000 on lessons. Here is what happened"
+        ]
+      }
+    ],
+    "analytics": [
+      {
+        "title": "The Practical Guide to Google Analytics 4",
+        "desc": "Key Takeaways Are you getting the most out of Google Analytics 4 (GA4)? GA4 has been Google\u2019s standard analytics platform for a few years now. The move from Universal Analytics (UA) was a major shift,",
+        "source_url": "https://neilpatel.com/blog/google-analytics-4/",
+        "source_name": "Neil Patel",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "analytics": [
+            "How The Practical Guide to Google Analytics 4 gave us 3 insights our dashboard has been hiding",
+            "The The Practical Guide to Google Analytics 4 metric 90% of teams track wrong",
+            "Why The Practical Guide to Google Analytics 4 is the analytics blind spot killing your decisions",
+            "The Practical Guide to Google Analytics 4: the 3 reports you should auto-email to your team",
+            "How we caught a 20% revenue leak with The Practical Guide to Google Analytics 4 analytics"
+          ]
+        },
+        "primary_category": "analytics",
+        "angles": [
+          "How The Practical Guide to Google Analytics 4 gave us 3 insights our dashboard has been hiding",
+          "The The Practical Guide to Google Analytics 4 metric 90% of teams track wrong",
+          "Why The Practical Guide to Google Analytics 4 is the analytics blind spot killing your decisions",
+          "The Practical Guide to Google Analytics 4: the 3 reports you should auto-email to your team",
+          "How we caught a 20% revenue leak with The Practical Guide to Google Analytics 4 analytics"
+        ]
+      },
+      {
+        "title": "SEO Forecasting: How to Predict Your Traffic in an AI Era",
+        "desc": "Key Takeaways When it comes to SEO, forecasting can be a tricky concept. You\u2019re trying to predict the future of your website\u2019s traffic and it can be difficult to know which metrics to focus on. It can",
+        "source_url": "https://neilpatel.com/blog/seo-forecasting/",
+        "source_name": "Neil Patel",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why SEO Forecasting: How to Predict is the biggest shift happening in marketing right now",
+            "How to get started with SEO Forecasting: How to Predict before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing SEO Forecasting: How to Predict",
+            "Why most marketing teams fail with SEO Forecasting: How to Predict",
+            "SEO Forecasting: How to Predict: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing SEO Forecasting: How to Predict: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting SEO Forecasting: How to Predict",
+            "The hidden gotcha nobody mentions about SEO Forecasting: How to Predict",
+            "Why SEO Forecasting: How to Predict is the tool you should try this week (or skip)"
+          ],
+          "analytics": [
+            "How SEO Forecasting: How to Predict gave us 3 insights our dashboard has been hiding",
+            "The SEO Forecasting: How to Predict metric 90% of teams track wrong",
+            "Why SEO Forecasting: How to Predict is the analytics blind spot killing your decisions",
+            "SEO Forecasting: How to Predict: the 3 reports you should auto-email to your team",
+            "How we caught a 20% revenue leak with SEO Forecasting: How to Predict analytics"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why SEO Forecasting: How to Predict is the biggest shift happening in marketing right now",
+          "How to get started with SEO Forecasting: How to Predict before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing SEO Forecasting: How to Predict",
+          "Why most marketing teams fail with SEO Forecasting: How to Predict",
+          "SEO Forecasting: How to Predict: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "Inside ChatGPT\u2019s Source Preferences: What Query Fanouts Reveal About AI Discoverability",
+        "desc": "Key Takeaways Most marketers optimizing for AI search visibility are focused on the wrong layer. They are tracking citations, which is the output. What they should be studying is fanouts, which is the",
+        "source_url": "https://neilpatel.com/blog/chatgpt-query-source-preferences/",
+        "source_name": "Neil Patel",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Inside ChatGPT\u2019s Source Preferences: What is the biggest shift happening in marketing right now",
+            "How to get started with Inside ChatGPT\u2019s Source Preferences: What before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Inside ChatGPT\u2019s Source Preferences: What",
+            "Why most marketing teams fail with Inside ChatGPT\u2019s Source Preferences: What",
+            "Inside ChatGPT\u2019s Source Preferences: What: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Inside ChatGPT\u2019s Source Preferences: What: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Inside ChatGPT\u2019s Source Preferences: What",
+            "The hidden gotcha nobody mentions about Inside ChatGPT\u2019s Source Preferences: What",
+            "Why Inside ChatGPT\u2019s Source Preferences: What is the tool you should try this week (or skip)"
+          ],
+          "analytics": [
+            "How Inside ChatGPT\u2019s Source Preferences: What gave us 3 insights our dashboard has been hiding",
+            "The Inside ChatGPT\u2019s Source Preferences: What metric 90% of teams track wrong",
+            "Why Inside ChatGPT\u2019s Source Preferences: What is the analytics blind spot killing your decisions",
+            "Inside ChatGPT\u2019s Source Preferences: What: the 3 reports you should auto-email to your team",
+            "How we caught a 20% revenue leak with Inside ChatGPT\u2019s Source Preferences: What analytics"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why Inside ChatGPT\u2019s Source Preferences: What is the biggest shift happening in marketing right now",
+          "How to get started with Inside ChatGPT\u2019s Source Preferences: What before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Inside ChatGPT\u2019s Source Preferences: What",
+          "Why most marketing teams fail with Inside ChatGPT\u2019s Source Preferences: What",
+          "Inside ChatGPT\u2019s Source Preferences: What: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "Where does AI get its information? And how to get cited",
+        "desc": "AI gets information from channels like training data, live online information, and licensing partnerships.",
+        "source_url": "https://www.semrush.com/blog/where-does-ai-get-its-information/",
+        "source_name": "SEMrush",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Where does AI get its is the biggest shift happening in marketing right now",
+            "How to get started with Where does AI get its before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Where does AI get its",
+            "Why most marketing teams fail with Where does AI get its",
+            "Where does AI get its: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Where does AI get its: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Where does AI get its",
+            "The hidden gotcha nobody mentions about Where does AI get its",
+            "Why Where does AI get its is the tool you should try this week (or skip)"
+          ],
+          "analytics": [
+            "How Where does AI get its gave us 3 insights our dashboard has been hiding",
+            "The Where does AI get its metric 90% of teams track wrong",
+            "Why Where does AI get its is the analytics blind spot killing your decisions",
+            "Where does AI get its: the 3 reports you should auto-email to your team",
+            "How we caught a 20% revenue leak with Where does AI get its analytics"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why Where does AI get its is the biggest shift happening in marketing right now",
+          "How to get started with Where does AI get its before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Where does AI get its",
+          "Why most marketing teams fail with Where does AI get its",
+          "Where does AI get its: Overrated or the real deal? Here is my take after testing it"
+        ]
+      },
+      {
+        "title": "18 SEO KPIs to measure organic & AI search performance",
+        "desc": "Relevant SEO KPIs to track include AI visibility, keyword rankings, organic traffic, and brand mentions.",
+        "source_url": "https://www.semrush.com/blog/seo-kpis/",
+        "source_name": "SEMrush",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why 18 SEO KPIs to measure is the biggest shift happening in marketing right now",
+            "How to get started with 18 SEO KPIs to measure before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing 18 SEO KPIs to measure",
+            "Why most marketing teams fail with 18 SEO KPIs to measure",
+            "18 SEO KPIs to measure: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing 18 SEO KPIs to measure: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting 18 SEO KPIs to measure",
+            "The hidden gotcha nobody mentions about 18 SEO KPIs to measure",
+            "Why 18 SEO KPIs to measure is the tool you should try this week (or skip)"
+          ],
+          "analytics": [
+            "How 18 SEO KPIs to measure gave us 3 insights our dashboard has been hiding",
+            "The 18 SEO KPIs to measure metric 90% of teams track wrong",
+            "Why 18 SEO KPIs to measure is the analytics blind spot killing your decisions",
+            "18 SEO KPIs to measure: the 3 reports you should auto-email to your team",
+            "How we caught a 20% revenue leak with 18 SEO KPIs to measure analytics"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why 18 SEO KPIs to measure is the biggest shift happening in marketing right now",
+          "How to get started with 18 SEO KPIs to measure before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing 18 SEO KPIs to measure",
+          "Why most marketing teams fail with 18 SEO KPIs to measure",
+          "18 SEO KPIs to measure: Overrated or the real deal? Here is my take after testing it"
+        ]
+      }
+    ],
+    "ecommerce": [
+      {
+        "title": "Google Search Is Becoming AI Search: What This Means for Your Brand",
+        "desc": "Key Takeaways Is Google Search still \u201csearch\u201d at all? At Google I/O 2026, Search VP Liz Reid said it plainly: \u201cGoogle search is AI search.\u201d That\u2019s not a product update. That\u2019s a declaration that the p",
+        "source_url": "https://neilpatel.com/blog/google-search-becoming-ai-search/",
+        "source_name": "Neil Patel",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Google Search Is Becoming AI is the biggest shift happening in marketing right now",
+            "How to get started with Google Search Is Becoming AI before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Google Search Is Becoming AI",
+            "Why most marketing teams fail with Google Search Is Becoming AI",
+            "Google Search Is Becoming AI: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Google Search Is Becoming AI: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Google Search Is Becoming AI",
+            "The hidden gotcha nobody mentions about Google Search Is Becoming AI",
+            "Why Google Search Is Becoming AI is the tool you should try this week (or skip)"
+          ],
+          "ecommerce": [
+            "How Google Search Is Becoming AI lifted our product page conversions by 31%",
+            "The Google Search Is Becoming AI ecomm checklist: 3 things before you launch",
+            "Why Google Search Is Becoming AI flops on mobile (and how to fix it for good)",
+            "Google Search Is Becoming AI: the one tactic that scales from 100 to 10k orders/day",
+            "Running Google Search Is Becoming AI on a 50 product catalog: here is what works"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why Google Search Is Becoming AI is the biggest shift happening in marketing right now",
+          "How to get started with Google Search Is Becoming AI before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Google Search Is Becoming AI",
+          "Why most marketing teams fail with Google Search Is Becoming AI",
+          "Google Search Is Becoming AI: Overrated or the real deal? Here is my take after testing it"
         ]
       }
     ],
     "automation": [
       {
-        "title": "Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\"",
-        "desc": "https://hnmatchmaker.com/",
-        "source_url": "https://news.ycombinator.com/item?id=49528057",
-        "source_name": "Hacker News",
+        "title": "Enterprise SEO: What it is & how to build a winning strategy",
+        "desc": "Enterprise SEO involves optimizing a website\u2019s visibility at scale, using templated and automated approaches.",
+        "source_url": "https://www.semrush.com/blog/enterprise-seo/",
+        "source_name": "SEMrush",
         "date": "2026-09-02",
         "badges": [
-          "warm",
+          "hot",
           "new"
         ],
         "category_angles": {
           "automation": [
-            "Building my first Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" automation: 3 mistakes I made (and fixed)",
-            "How Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" replaced 2 hours of daily manual work",
-            "The Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" setup guide: from zero to automated in 2 hours",
-            "Why Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" automation fails (and how to make it stick)",
-            "Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\": the no-code stack that actually works in 2025"
+            "Building my first Enterprise SEO: What it is automation: 3 mistakes I made (and fixed)",
+            "How Enterprise SEO: What it is replaced 2 hours of daily manual work",
+            "The Enterprise SEO: What it is setup guide: from zero to automated in 2 hours",
+            "Why Enterprise SEO: What it is automation fails (and how to make it stick)",
+            "Enterprise SEO: What it is: the no-code stack that actually works in 2025"
           ]
         },
         "primary_category": "automation",
         "angles": [
-          "Building my first Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" automation: 3 mistakes I made (and fixed)",
-          "How Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" replaced 2 hours of daily manual work",
-          "The Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" setup guide: from zero to automated in 2 hours",
-          "Why Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" automation fails (and how to make it stick)",
-          "Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\": the no-code stack that actually works in 2025"
+          "Building my first Enterprise SEO: What it is automation: 3 mistakes I made (and fixed)",
+          "How Enterprise SEO: What it is replaced 2 hours of daily manual work",
+          "The Enterprise SEO: What it is setup guide: from zero to automated in 2 hours",
+          "Why Enterprise SEO: What it is automation fails (and how to make it stick)",
+          "Enterprise SEO: What it is: the no-code stack that actually works in 2025"
+        ]
+      },
+      {
+        "title": "How to use AI tools for competitor analysis in 2026",
+        "desc": "ChatGPT alone won\u2018t cut it. See how to use AI tools for competitor analysis the right way, with Semrush MCP and a step-by-step workflow.",
+        "source_url": "https://www.semrush.com/blog/ai-tools-for-competitor-analysis/",
+        "source_name": "SEMrush",
+        "date": "2026-09-02",
+        "badges": [
+          "hot",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why How to use AI tools is the biggest shift happening in marketing right now",
+            "How to get started with How to use AI tools before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing How to use AI tools",
+            "Why most marketing teams fail with How to use AI tools",
+            "How to use AI tools: Overrated or the real deal? Here is my take after testing it"
+          ],
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing How to use AI tools: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting How to use AI tools",
+            "The hidden gotcha nobody mentions about How to use AI tools",
+            "Why How to use AI tools is the tool you should try this week (or skip)"
+          ],
+          "automation": [
+            "Building my first How to use AI tools automation: 3 mistakes I made (and fixed)",
+            "How How to use AI tools replaced 2 hours of daily manual work",
+            "The How to use AI tools setup guide: from zero to automated in 2 hours",
+            "Why How to use AI tools automation fails (and how to make it stick)",
+            "How to use AI tools: the no-code stack that actually works in 2025"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why How to use AI tools is the biggest shift happening in marketing right now",
+          "How to get started with How to use AI tools before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing How to use AI tools",
+          "Why most marketing teams fail with How to use AI tools",
+          "How to use AI tools: Overrated or the real deal? Here is my take after testing it"
         ]
       }
     ]
