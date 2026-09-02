@@ -126,6 +126,13 @@ def clean_topic(title):
     # Strip URL fragments at the end
     title = re.sub(r'\s+https?://\S+', '', title)
 
+    # If title has a colon with a question after it, extract the main subject
+    if ":" in title and "?" in title:
+        # e.g. "Enterprise SEO: What it is & how to build a winning strategy"
+        # → keep just "Enterprise SEO"
+        parts = title.split(":")
+        title = parts[0].strip()
+
     # If title is a question, extract the noun phrase
     if title.strip().endswith("?"):
         # Strip question words to get the core subject
