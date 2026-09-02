@@ -126,12 +126,13 @@ def clean_topic(title):
     # Strip URL fragments at the end
     title = re.sub(r'\s+https?://\S+', '', title)
 
-    # If title has a colon with a question after it, extract the main subject
-    if ":" in title and "?" in title:
-        # e.g. "Enterprise SEO: What it is & how to build a winning strategy"
-        # → keep just "Enterprise SEO"
-        parts = title.split(":")
-        title = parts[0].strip()
+    # If title has a colon, and the part after the colon is a question or explanation, extract the main subject
+    if ":" in title:
+        colon_idx = title.index(":")
+        after = title[colon_idx+1:].strip()
+        # If the part after colon is a question, long explanation, or has "what" / "how" — keep just the main title
+        if (after.endswith("?") or len(after) > 30 or after.startswith(("What ", "How ", "Why "))):
+            title = title[:colon_idx].strip()
 
     # If title is a question, extract the noun phrase
     if title.strip().endswith("?"):
