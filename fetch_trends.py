@@ -36,7 +36,7 @@ ANGLE_TEMPLATES = {
         "{TOPIC}: Overrated or the real deal? Here is my take after testing it",
     ],
     "ai-tools": [
-        "The 3 AI tools that replaced my entire tech stack this week",
+        "Why {TOPIC} is the AI tool replacing my entire tech stack this week",
         "Testing {TOPIC}: does it actually save time or just add complexity?",
         "How we cut costs 40% by adopting {TOPIC}",
         "The hidden gotcha nobody mentions about {TOPIC}",
@@ -101,16 +101,16 @@ ANGLE_TEMPLATES = {
 }
 
 CATEGORY_KEYWORDS = {
-    "ai-marketing": ["marketing", "ai marketing", "artificial intelligence", "automation", "agent", "ai ", "gpt", "llm", "model", "saas", "startup"],
-    "ai-tools": ["ai tool", "ai tools", "chatgpt", "llm", "claude", "midjourney", "cursor", "ai agent", "gpt", "model", "ai ", "tool"],
-    "content": ["content", "social media", "linkedin", "tiktok", "youtube", "video", "copywriting", "creator", "blog", "newsletter"],
-    "ads": ["advertising", "facebook ads", "google ads", "ppc", "tiktok ads", "programmatic", "conversion", "roas"],
-    "automation": ["automation", "workflow", "no-code", "zapier", "integrat", "api", "automate"],
-    "analytics": ["analytics", "data", "attribut", "metric", "dashboard", "kpi", "tracking"],
-    "agency": ["agency", "client", "pricing", "freelancer", "retainer", "contract"],
-    "growth": ["growth", "retention", "acquisition", "funnel", "lead gen", "churn"],
-    "crm": ["crm", "salesforce", "hubspot", "apollo", "lever", "pipeline", "prospect"],
-    "ecommerce": ["ecommerce", "shopify", "amazon", "shop", "product", "cart", "checkout"],
+    "ai-marketing": ["marketing", "ai marketing", "artificial intelligence", "automation", "agent", "ai ", "gpt", "llm", "model", "saas", "startup", "ai tool", "ai tools"],
+    "ai-tools": ["ai tool", "ai tools", "chatgpt", "llm", "claude", "midjourney", "cursor", "ai agent", "gpt", "model", "tool", "open-source", "open source"],
+    "content": ["content", "social media", "linkedin", "tiktok", "youtube", "video", "copywriting", "creator", "blog", "newsletter", "seo", "marketing", "post"],
+    "ads": ["advertising", "facebook ads", "google ads", "ppc", "tiktok ads", "programmatic", "conversion", "roas", "paid media", "ad"],
+    "automation": ["automation", "workflow", "no-code", "zapier", "integrat", "api", "automate", "agent", "bot"],
+    "analytics": ["analytics", "data", "attribut", "metric", "dashboard", "kpi", "tracking", "forecast", "insights"],
+    "agency": ["agency", "client", "pricing", "freelancer", "retainer", "contract", "business", "startup", "scale"],
+    "growth": ["growth", "retention", "acquisition", "funnel", "lead gen", "churn", "conversion", "scale", "revenue"],
+    "crm": ["crm", "salesforce", "hubspot", "apollo", "lever", "pipeline", "prospect", "sales", "customer", "revenue"],
+    "ecommerce": ["ecommerce", "shopify", "amazon", "shop", "product", "cart", "checkout", "ecomm", "store"],
 }
 
 
@@ -386,6 +386,7 @@ def main():
 
     # Categorize and generate category-specific angles
     categorized = {}
+    all_cats = list(CATEGORY_KEYWORDS.keys())
     for t in unique:
         text = t["title"] + " " + t["desc"]
         cats = categorize(text)
@@ -397,12 +398,17 @@ def main():
         for cat in cats:
             t["category_angles"][cat] = generate_angles_for_category(cat, t["title"])
 
+        # Also generate angles for ALL other categories so every dropdown has data
+        for cat in all_cats:
+            if cat not in t["category_angles"]:
+                t["category_angles"][cat] = generate_angles_for_category(cat, t["title"])
+
         # Default angles from primary (first) category
         t["primary_category"] = cats[0]
         t["angles"] = t["category_angles"][cats[0]]
 
-        # Add to each relevant category's list
-        for cat in cats:
+        # Add to each category's list so every dropdown shows trends
+        for cat in all_cats:
             categorized.setdefault(cat, []).append(t)
 
     # Build output
