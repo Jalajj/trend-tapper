@@ -121,35 +121,61 @@ def clean_topic(title):
     title = re.sub(r'^Launch HN:\s*', '', title)
     title = re.sub(r'^Ask HN:\s*', '', title)
     title = re.sub(r'^\[Hiring\]\s*', '', title)
-    title = re.sub(r'^Product Hunt: ', '', title, flags=re.IGNORECASE)
+    title = re.sub(r'^Product Hunt:\s*', '', title, flags=re.IGNORECASE)
 
     # Strip URL fragments at the end
     title = re.sub(r'\s+https?://\S+', '', title)
 
-    # If title has a colon, and the part after the colon is a question or explanation, extract the main subject
+    # Strip parenthetical year-guide suffixes like "(2026 Guide)", "(2025)", "(v2)"
+    # but NOT meaningful parens like "(YC S26)" or "(YC W24)"
+    title = re.sub(r'\s*\(\d{4}\s*\)\s*$', '', title)  # bare year
+    title = re.sub(r'\s*\(\d{4}\s+Guide\)\s*$', '', title, flags=re.IGNORECASE)  # "(2026 Guide)"
+    title = re.sub(r'\s*\(v\d+\)\s*$', '', title, flags=re.IGNORECASE)  # "(v2)"
+
+    # Handle colon: "Paid Media Forecasting: How to Predict..." → "Paid Media Forecasting"
+    # Only strip if the part after colon is a question/explanation (long or starts with What/How/Why)
     if ":" in title:
         colon_idx = title.index(":")
         after = title[colon_idx+1:].strip()
-        # If the part after colon is a question, long explanation, or has "what" / "how" — keep just the main title
-        if (after.endswith("?") or len(after) > 30 or after.startswith(("What ", "How ", "Why "))):
+        if (after.endswith("?") or len(after) > 40 or after.startswith(("What ", "How ", "Why ", "Why's ", "The "))):
             title = title[:colon_idx].strip()
 
-    # If title is a question, extract the noun phrase
-    if title.strip().endswith("?"):
-        # Strip question words to get the core subject
-        for q in ["How accurate have", "What are the", "Why is", "How did", "Why did",
-                   "What is", "How to", "Is ", "Are "]:
-            if title.startswith(q):
-                title = title[len(q):].strip()
-        title = title.rstrip("?").strip()
-        # Take just the key noun phrase (first 4-5 words)
-        words = title.split()
-        if len(words) > 5:
-            # Keep first 5 words as the topic
-            title = " ".join(words[:5])
+    # Strip question-word prefixes from ALL titles (not just questions)
+    # For questions (ending with ?), also truncate to key phrase
+    # For non-questions starting with "How to" etc., just strip the prefix
+    question_prefixes = [
+        "How to ", "How do ", "How did ", "How can ", "How will ",
+        "What is ", "What are ", "What was ", "What were ", "What does ",
+        "Why is ", "Why was ", "Why did ", "Why are ", "Why does ",
+        "Is ", "Are ", "Can ", "Will ", "Do ", "Does ", "Should ",
+        "Would ", "Could ", "Did ", "When ", "Where ", "Which ",
+        "How accurate have ", "How long will ", "How much does ",
+        "How many ", "How often ", "How about ",
+    ]
 
-    # Truncate long titles
-    if len(title) > 50:
+    is_question = title.endswith("?")
+    title_stripped = title
+    for prefix in question_prefixes:
+        if title.startswith(prefix):
+            title_stripped = title[len(prefix):]
+            break
+
+    # Capitalize first letter if we stripped a prefix (e.g. "How to" → "Use AI tools")
+    if title_stripped != title:
+        title_stripped = title_stripped[0].upper() + title_stripped[1:] if title_stripped else title_stripped
+
+    # For questions, also truncate to key phrase after stripping the prefix
+    if is_question:
+        title_stripped = title_stripped.rstrip("?").strip()
+        # If still long, take first 5 words as the topic
+        words = title_stripped.split()
+        if len(words) > 5:
+            title_stripped = " ".join(words[:5])
+
+    title = title_stripped
+
+    # Truncate long titles (keep it readable for angle templates)
+    if len(title) > 70:
         words = title.split()
         for cut in range(5, len(words) + 1):
             short = " ".join(words[:cut])

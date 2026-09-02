@@ -92,7 +92,7 @@
   <header>
     <h1>Trend Tapper <span style="font-size:1.2rem">⚡</span></h1>
     <p>Get live AI marketing trends with 5 post angles each — tap once and start writing.</p>
-    <div class="meta">Trending in: <strong id="meta-category">AI & Marketing</strong> · Updated daily at 9am UTC · Free, no signup · <a href="https://github.com/jalajjain/trend-tapper" style="color:inherit;text-decoration:underline">open source</a></div>
+    <div class="meta">Trending in: <strong id="meta-category">AI & Marketing</strong> · Updated daily at 9am UTC · Free, no signup · <a href="https://github.com/jalajj/trend-tapper" style="color:inherit;text-decoration:underline">open source</a></div>
   </header>
 
   <main class="container">
@@ -134,7 +134,7 @@
   <footer>
     Built live in <strong>Day 2 of 7 tiny tools</strong>. Free, no signup.
     Data from <strong>Hacker News API</strong> + <strong>Product Hunt RSS</strong> + <strong>Reddit</strong>, refreshed daily.
-    <a href="https://github.com/jalajjain/trend-tapper" class="github">Source ↗</a>
+    <a href="https://github.com/jalajj/trend-tapper" class="github">Source ↗</a>
   </footer>
 
   <script>
@@ -159,7 +159,6 @@
     const errorEl = document.getElementById("error-msg");
     const noResultsEl = document.getElementById("no-results");
     const metaCategory = document.getElementById("meta-category");
-    const resetBtn = document.getElementById("reset-filters");
 
     const badgeLabels = { hot: "🔥 Hot", new: "🆕 New", warm: "☕ Warm", cool: "🧊 Cool" };
     const fallbackCategory = "ai-marketing";
@@ -178,7 +177,6 @@
     function renderTrends(trendsData) {
       const cat = category.value;
       const showHot = document.getElementById("show-hot").checked;
-      const includeNews = document.getElementById("include-news").checked;
 
       // Get trends for this category, or fallback
       let trends = trendsData.trends[cat] || [];
@@ -192,7 +190,7 @@
       // Filter by hot only
       if (showHot) trends = trends.filter(t => t.badges && t.badges.includes("hot"));
 
-      // Sort by date descending (newest first), then shuffle slightly for variety
+      // Shuffle for variety (not a deterministic order)
       trends = [...trends].sort(() => Math.random() - 0.5);
 
       // Limit to 10
@@ -290,10 +288,12 @@
       loadingEl.style.display = "none";
     });
 
-    resetBtn.addEventListener("click", () => {
-      document.getElementById("show-hot").checked = true;
-      document.getElementById("include-news").checked = true;
-      document.getElementById("reset-filters").closest("#no-results").style.display = "none";
+    // Reset filters button — uses event delegation since the button is inside the hidden no-results div
+    document.addEventListener("click", function(e) {
+      if (e.target && e.target.id === "reset-filters") {
+        document.getElementById("show-hot").checked = true;
+        noResultsEl.style.display = "none";
+      }
     });
 
     // Auto-load on first visit
