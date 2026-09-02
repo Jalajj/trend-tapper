@@ -1,254 +1,648 @@
 {
-  "generated_at": "2026-09-01T07:20:02Z",
+  "generated_at": "2026-09-02T06:59:57Z",
   "trends": {
-    "content": [
+    "ai-tools": [
       {
-        "title": "Terence Tao explains 6 essential mathematical concepts [video]",
-        "desc": "https://www.youtube.com/watch?v=OOMx2BHHWtE",
-        "source_url": "https://news.ycombinator.com/item?id=49503521",
+        "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+        "desc": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+        "source_url": "https://news.ycombinator.com/item?id=49525378",
         "source_name": "Hacker News",
-        "date": "2026-09-01",
-        "category": "content",
+        "date": "2026-09-02",
         "badges": [
           "warm",
           "new"
         ],
+        "category_angles": {
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Claude Fable 5.1 and Claude Mythos 5.1: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Claude Fable 5.1 and Claude Mythos 5.1",
+            "The hidden gotcha nobody mentions about Claude Fable 5.1 and Claude Mythos 5.1",
+            "Why Claude Fable 5.1 and Claude Mythos 5.1 is the tool you should try this week (or skip)"
+          ]
+        },
+        "primary_category": "ai-tools",
         "angles": [
-          "How Terence Tao explains 6 essential mathematical concepts [video] changed our content strategy",
-          "The Terence Tao explains 6 essential mathematical concepts [video] playbook: 3 tactics that work in 2025",
-          "Stop creating content like it is 2020. Try Terence Tao explains 6 essential mathematical concepts [video]",
-          "Why Terence Tao explains 6 essential mathematical concepts [video] flops for most teams (and how to fix it)",
-          "Terence Tao explains 6 essential mathematical concepts [video] in 60 seconds: the TLDR"
+          "The 3 AI tools that replaced my entire tech stack this week",
+          "Testing Claude Fable 5.1 and Claude Mythos 5.1: does it actually save time or just add complexity?",
+          "How we cut costs 40% by adopting Claude Fable 5.1 and Claude Mythos 5.1",
+          "The hidden gotcha nobody mentions about Claude Fable 5.1 and Claude Mythos 5.1",
+          "Why Claude Fable 5.1 and Claude Mythos 5.1 is the tool you should try this week (or skip)"
         ]
       },
       {
-        "title": "AI Can Make You Suck Faster Too",
-        "desc": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
-        "source_url": "https://news.ycombinator.com/item?id=49518316",
+        "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+        "desc": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+        "source_url": "https://news.ycombinator.com/item?id=49527396",
         "source_name": "Hacker News",
-        "date": "2026-09-01",
-        "category": "content",
+        "date": "2026-09-02",
         "badges": [
           "warm",
           "new"
         ],
+        "category_angles": {
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing The ChatGPT/Codex app bundles a full copy of LibreOffice: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting The ChatGPT/Codex app bundles a full copy of LibreOffice",
+            "The hidden gotcha nobody mentions about The ChatGPT/Codex app bundles a full copy of LibreOffice",
+            "Why The ChatGPT/Codex app bundles a full copy of LibreOffice is the tool you should try this week (or skip)"
+          ]
+        },
+        "primary_category": "ai-tools",
         "angles": [
-          "How AI Can Make You Suck Faster Too changed our content strategy",
-          "The AI Can Make You Suck Faster Too playbook: 3 tactics that work in 2025",
-          "Stop creating content like it is 2020. Try AI Can Make You Suck Faster Too",
-          "Why AI Can Make You Suck Faster Too flops for most teams (and how to fix it)",
-          "AI Can Make You Suck Faster Too in 60 seconds: the TLDR"
+          "The 3 AI tools that replaced my entire tech stack this week",
+          "Testing The ChatGPT/Codex app bundles a full copy of LibreOffice: does it actually save time or just add complexity?",
+          "How we cut costs 40% by adopting The ChatGPT/Codex app bundles a full copy of LibreOffice",
+          "The hidden gotcha nobody mentions about The ChatGPT/Codex app bundles a full copy of LibreOffice",
+          "Why The ChatGPT/Codex app bundles a full copy of LibreOffice is the tool you should try this week (or skip)"
         ]
       },
       {
-        "title": "Develop Cross-Platform CLI and GUI Tools with Tcl/Tk",
-        "desc": "https://cgicoffee.com/blog/2026/04/tcl-tk-develop-cross-platform-cli-gui-tools-tutorial-guide",
-        "source_url": "https://news.ycombinator.com/item?id=49515662",
+        "title": "My local model setup on an M4 Pro Mac Mini",
+        "desc": "https://lws.io/blog/my-local-model-setup/",
+        "source_url": "https://news.ycombinator.com/item?id=49529132",
         "source_name": "Hacker News",
-        "date": "2026-09-01",
-        "category": "content",
+        "date": "2026-09-02",
         "badges": [
           "warm",
           "new"
         ],
+        "category_angles": {
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing My local model setup on an M4 Pro Mac Mini: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting My local model setup on an M4 Pro Mac Mini",
+            "The hidden gotcha nobody mentions about My local model setup on an M4 Pro Mac Mini",
+            "Why My local model setup on an M4 Pro Mac Mini is the tool you should try this week (or skip)"
+          ],
+          "content": [
+            "How My local model setup on an M4 Pro Mac Mini changed our entire content strategy in 7 days",
+            "The My local model setup on an M4 Pro Mac Mini content playbook: 3 tactics that actually work in 2025",
+            "Stop creating content like it is 2020. Try these My local model setup on an M4 Pro Mac Mini approaches instead",
+            "Why My local model setup on an M4 Pro Mac Mini content flops for most teams (and how to fix it)",
+            "My local model setup on an M4 Pro Mac Mini: content in 60 seconds \u2014 the TLDR for busy creators"
+          ]
+        },
+        "primary_category": "ai-tools",
         "angles": [
-          "How Develop Cross-Platform CLI and GUI Tools with Tcl/Tk changed our content strategy",
-          "The Develop Cross-Platform CLI and GUI Tools with Tcl/Tk playbook: 3 tactics that work in 2025",
-          "Stop creating content like it is 2020. Try Develop Cross-Platform CLI and GUI Tools with Tcl/Tk",
-          "Why Develop Cross-Platform CLI and GUI Tools with Tcl/Tk flops for most teams (and how to fix it)",
-          "Develop Cross-Platform CLI and GUI Tools with Tcl/Tk in 60 seconds: the TLDR"
+          "The 3 AI tools that replaced my entire tech stack this week",
+          "Testing My local model setup on an M4 Pro Mac Mini: does it actually save time or just add complexity?",
+          "How we cut costs 40% by adopting My local model setup on an M4 Pro Mac Mini",
+          "The hidden gotcha nobody mentions about My local model setup on an M4 Pro Mac Mini",
+          "Why My local model setup on an M4 Pro Mac Mini is the tool you should try this week (or skip)"
+        ]
+      },
+      {
+        "title": "The efficient frontier of LLM inference",
+        "desc": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+        "source_url": "https://news.ycombinator.com/item?id=49529898",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "warm",
+          "new"
+        ],
+        "category_angles": {
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing The efficient frontier of LLM inference: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting The efficient frontier of LLM inference",
+            "The hidden gotcha nobody mentions about The efficient frontier of LLM inference",
+            "Why The efficient frontier of LLM inference is the tool you should try this week (or skip)"
+          ],
+          "content": [
+            "How The efficient frontier of LLM inference changed our entire content strategy in 7 days",
+            "The The efficient frontier of LLM inference content playbook: 3 tactics that actually work in 2025",
+            "Stop creating content like it is 2020. Try these The efficient frontier of LLM inference approaches instead",
+            "Why The efficient frontier of LLM inference content flops for most teams (and how to fix it)",
+            "The efficient frontier of LLM inference: content in 60 seconds \u2014 the TLDR for busy creators"
+          ]
+        },
+        "primary_category": "ai-tools",
+        "angles": [
+          "The 3 AI tools that replaced my entire tech stack this week",
+          "Testing The efficient frontier of LLM inference: does it actually save time or just add complexity?",
+          "How we cut costs 40% by adopting The efficient frontier of LLM inference",
+          "The hidden gotcha nobody mentions about The efficient frontier of LLM inference",
+          "Why The efficient frontier of LLM inference is the tool you should try this week (or skip)"
+        ]
+      },
+      {
+        "title": "Atlas: A World Model for Spatial Intelligence",
+        "desc": "https://www.worldlabs.ai/blog/atlas",
+        "source_url": "https://news.ycombinator.com/item?id=49525160",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "warm",
+          "new"
+        ],
+        "category_angles": {
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Atlas: A World Model for Spatial Intelligence: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Atlas: A World Model for Spatial Intelligence",
+            "The hidden gotcha nobody mentions about Atlas: A World Model for Spatial Intelligence",
+            "Why Atlas: A World Model for Spatial Intelligence is the tool you should try this week (or skip)"
+          ],
+          "content": [
+            "How Atlas: A World Model for Spatial Intelligence changed our entire content strategy in 7 days",
+            "The Atlas: A World Model for Spatial Intelligence content playbook: 3 tactics that actually work in 2025",
+            "Stop creating content like it is 2020. Try these Atlas: A World Model for Spatial Intelligence approaches instead",
+            "Why Atlas: A World Model for Spatial Intelligence content flops for most teams (and how to fix it)",
+            "Atlas: A World Model for Spatial Intelligence: content in 60 seconds \u2014 the TLDR for busy creators"
+          ]
+        },
+        "primary_category": "ai-tools",
+        "angles": [
+          "The 3 AI tools that replaced my entire tech stack this week",
+          "Testing Atlas: A World Model for Spatial Intelligence: does it actually save time or just add complexity?",
+          "How we cut costs 40% by adopting Atlas: A World Model for Spatial Intelligence",
+          "The hidden gotcha nobody mentions about Atlas: A World Model for Spatial Intelligence",
+          "Why Atlas: A World Model for Spatial Intelligence is the tool you should try this week (or skip)"
         ]
       }
     ],
     "ai-marketing": [
       {
-        "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
-        "desc": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
-        "source_url": "https://news.ycombinator.com/item?id=49508982",
+        "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+        "desc": "https://danluu.com/zitron/",
+        "source_url": "https://news.ycombinator.com/item?id=49526069",
         "source_name": "Hacker News",
-        "date": "2026-09-01",
-        "category": "ai-marketing",
+        "date": "2026-09-02",
+        "badges": [
+          "warm",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why How accurate have Ed Zitron's AI skeptic predictions been? is the biggest shift happening in marketing right now",
+            "How to get started with How accurate have Ed Zitron's AI skeptic predictions been? before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing How accurate have Ed Zitron's AI skeptic predictions been?",
+            "Why most marketing teams fail with How accurate have Ed Zitron's AI skeptic predictions been?",
+            "How accurate have Ed Zitron's AI skeptic predictions been?: Overrated or the real deal? Here's my take after testing it"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why How accurate have Ed Zitron's AI skeptic predictions been? is the biggest shift happening in marketing right now",
+          "How to get started with How accurate have Ed Zitron's AI skeptic predictions been? before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing How accurate have Ed Zitron's AI skeptic predictions been?",
+          "Why most marketing teams fail with How accurate have Ed Zitron's AI skeptic predictions been?",
+          "How accurate have Ed Zitron's AI skeptic predictions been?: Overrated or the real deal? Here's my take after testing it"
+        ]
+      },
+      {
+        "title": "Path to Astra: critical capabilities and frontier safeguards",
+        "desc": "https://openai.com/index/path-to-astra/",
+        "source_url": "https://news.ycombinator.com/item?id=49527595",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "warm",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Path to Astra: critical capabilities and frontier safeguards is the biggest shift happening in marketing right now",
+            "How to get started with Path to Astra: critical capabilities and frontier safeguards before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Path to Astra: critical capabilities and frontier safeguards",
+            "Why most marketing teams fail with Path to Astra: critical capabilities and frontier safeguards",
+            "Path to Astra: critical capabilities and frontier safeguards: Overrated or the real deal? Here's my take after testing it"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why Path to Astra: critical capabilities and frontier safeguards is the biggest shift happening in marketing right now",
+          "How to get started with Path to Astra: critical capabilities and frontier safeguards before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Path to Astra: critical capabilities and frontier safeguards",
+          "Why most marketing teams fail with Path to Astra: critical capabilities and frontier safeguards",
+          "Path to Astra: critical capabilities and frontier safeguards: Overrated or the real deal? Here's my take after testing it"
+        ]
+      },
+      {
+        "title": "Refurbishing a Tektronix TDS7104 Oscilloscope",
+        "desc": "https://tomverbeure.github.io/2026/08/23/Tektronix-TDS7104-Refurbishing.html",
+        "source_url": "https://news.ycombinator.com/item?id=49527232",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "warm",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Refurbishing a Tektronix TDS7104 Oscilloscope is the biggest shift happening in marketing right now",
+            "How to get started with Refurbishing a Tektronix TDS7104 Oscilloscope before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Refurbishing a Tektronix TDS7104 Oscilloscope",
+            "Why most marketing teams fail with Refurbishing a Tektronix TDS7104 Oscilloscope",
+            "Refurbishing a Tektronix TDS7104 Oscilloscope: Overrated or the real deal? Here's my take after testing it"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why Refurbishing a Tektronix TDS7104 Oscilloscope is the biggest shift happening in marketing right now",
+          "How to get started with Refurbishing a Tektronix TDS7104 Oscilloscope before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Refurbishing a Tektronix TDS7104 Oscilloscope",
+          "Why most marketing teams fail with Refurbishing a Tektronix TDS7104 Oscilloscope",
+          "Refurbishing a Tektronix TDS7104 Oscilloscope: Overrated or the real deal? Here's my take after testing it"
+        ]
+      },
+      {
+        "title": "Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development",
+        "desc": "https://www.norirobotics.com/",
+        "source_url": "https://news.ycombinator.com/item?id=49525153",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
         "badges": [
           "hot",
           "new"
         ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development is the biggest shift happening in marketing right now",
+            "How to get started with Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development",
+            "Why most marketing teams fail with Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development",
+            "Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development: Overrated or the real deal? Here's my take after testing it"
+          ]
+        },
+        "primary_category": "ai-marketing",
         "angles": [
-          "Why Apple caught off guard by AI demand for Mac Mini and Mac Studio is the biggest shift in marketing right now",
-          "How to get started with Apple caught off guard by AI demand for Mac Mini and Mac Studio (without a massive budget)",
-          "The 3 pitfalls nobody talks about with Apple caught off guard by AI demand for Mac Mini and Mac Studio",
-          "Why most companies fail at Apple caught off guard by AI demand for Mac Mini and Mac Studio",
-          "Apple caught off guard by AI demand for Mac Mini and Mac Studio: Overrated or the real deal?"
+          "Why Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development is the biggest shift happening in marketing right now",
+          "How to get started with Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development",
+          "Why most marketing teams fail with Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development",
+          "Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development: Overrated or the real deal? Here's my take after testing it"
         ]
       },
       {
-        "title": "DoltLite: A SQLite fork with Git-style version control, built with 2k agent PRs",
-        "desc": "https://www.dolthub.com/blog/2026-08-31-doltlite-beta/",
-        "source_url": "https://news.ycombinator.com/item?id=49516848",
+        "title": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+        "desc": "https://github.com/carloslfu/slotstream",
+        "source_url": "https://news.ycombinator.com/item?id=49524447",
         "source_name": "Hacker News",
-        "date": "2026-09-01",
-        "category": "ai-marketing",
+        "date": "2026-09-02",
         "badges": [
           "warm",
           "new"
         ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s is the biggest shift happening in marketing right now",
+            "How to get started with Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+            "Why most marketing teams fail with Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+            "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s: Overrated or the real deal? Here's my take after testing it"
+          ]
+        },
+        "primary_category": "ai-marketing",
         "angles": [
-          "Why DoltLite: A SQLite fork with Git-style version control, built with 2k agent PRs is the biggest shift in marketing right now",
-          "How to get started with DoltLite: A SQLite fork with Git-style version control, built with 2k agent PRs (without a massive budget)",
-          "The 3 pitfalls nobody talks about with DoltLite: A SQLite fork with Git-style version control, built with 2k agent PRs",
-          "Why most companies fail at DoltLite: A SQLite fork with Git-style version control, built with 2k agent PRs",
-          "DoltLite: A SQLite fork with Git-style version control, built with 2k agent PRs: Overrated or the real deal?"
+          "Why Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s is the biggest shift happening in marketing right now",
+          "How to get started with Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+          "Why most marketing teams fail with Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+          "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s: Overrated or the real deal? Here's my take after testing it"
         ]
       },
       {
-        "title": "Smartphone LED detects hidden cameras with AI",
-        "desc": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/",
-        "source_url": "https://news.ycombinator.com/item?id=49496292",
+        "title": "Ask HN: Who is hiring? (September 2026)",
+        "desc": "please state the location and include remote for remote work, remote (us)\nor similar if the country is restricted, and onsite when remote work is <i>not</i> an option.<p>please only post if you person",
+        "source_url": "https://news.ycombinator.com/item?id=49522897",
         "source_name": "Hacker News",
-        "date": "2026-09-01",
-        "category": "ai-marketing",
+        "date": "2026-09-02",
         "badges": [
           "warm",
           "new"
         ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Ask HN: Who is hiring? (September 2026) is the biggest shift happening in marketing right now",
+            "How to get started with Ask HN: Who is hiring? (September 2026) before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Ask HN: Who is hiring? (September 2026)",
+            "Why most marketing teams fail with Ask HN: Who is hiring? (September 2026)",
+            "Ask HN: Who is hiring? (September 2026): Overrated or the real deal? Here's my take after testing it"
+          ]
+        },
+        "primary_category": "ai-marketing",
         "angles": [
-          "Why Smartphone LED detects hidden cameras with AI is the biggest shift in marketing right now",
-          "How to get started with Smartphone LED detects hidden cameras with AI (without a massive budget)",
-          "The 3 pitfalls nobody talks about with Smartphone LED detects hidden cameras with AI",
-          "Why most companies fail at Smartphone LED detects hidden cameras with AI",
-          "Smartphone LED detects hidden cameras with AI: Overrated or the real deal?"
+          "Why Ask HN: Who is hiring? (September 2026) is the biggest shift happening in marketing right now",
+          "How to get started with Ask HN: Who is hiring? (September 2026) before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Ask HN: Who is hiring? (September 2026)",
+          "Why most marketing teams fail with Ask HN: Who is hiring? (September 2026)",
+          "Ask HN: Who is hiring? (September 2026): Overrated or the real deal? Here's my take after testing it"
         ]
       },
       {
-        "title": "ChatGPT Work Tool and Skill Reference",
-        "desc": "https://codex-tool-reference.simonw.chatgpt.site/",
-        "source_url": "https://news.ycombinator.com/item?id=49510000",
+        "title": "Quill (YC W20) Is Hiring a Fullstack SWE",
+        "desc": "quill | fullstack swe | full-time | remote, pt&#x2f;et hours preferred | $150 - 210k usd + equity | <a href=\"https:&#x2f;&#x2f;quill.co&#x2f;\" rel=\"nofollow\">https:&#x2f;&#x2f;quill.co&#x2f;</a><p>i\u2019m",
+        "source_url": "https://news.ycombinator.com/item?id=49524704",
         "source_name": "Hacker News",
-        "date": "2026-09-01",
-        "category": "ai-marketing",
+        "date": "2026-09-02",
         "badges": [
           "warm",
           "new"
         ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Quill (YC W20) Is Hiring a Fullstack SWE is the biggest shift happening in marketing right now",
+            "How to get started with Quill (YC W20) Is Hiring a Fullstack SWE before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Quill (YC W20) Is Hiring a Fullstack SWE",
+            "Why most marketing teams fail with Quill (YC W20) Is Hiring a Fullstack SWE",
+            "Quill (YC W20) Is Hiring a Fullstack SWE: Overrated or the real deal? Here's my take after testing it"
+          ]
+        },
+        "primary_category": "ai-marketing",
         "angles": [
-          "Why ChatGPT Work Tool and Skill Reference is the biggest shift in marketing right now",
-          "How to get started with ChatGPT Work Tool and Skill Reference (without a massive budget)",
-          "The 3 pitfalls nobody talks about with ChatGPT Work Tool and Skill Reference",
-          "Why most companies fail at ChatGPT Work Tool and Skill Reference",
-          "ChatGPT Work Tool and Skill Reference: Overrated or the real deal?"
+          "Why Quill (YC W20) Is Hiring a Fullstack SWE is the biggest shift happening in marketing right now",
+          "How to get started with Quill (YC W20) Is Hiring a Fullstack SWE before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Quill (YC W20) Is Hiring a Fullstack SWE",
+          "Why most marketing teams fail with Quill (YC W20) Is Hiring a Fullstack SWE",
+          "Quill (YC W20) Is Hiring a Fullstack SWE: Overrated or the real deal? Here's my take after testing it"
         ]
       },
       {
-        "title": "Launch HN: Almanac (YC S26) \u2013 AI that knows your company",
-        "desc": "https://usealmanac.com/",
-        "source_url": "https://news.ycombinator.com/item?id=49511007",
+        "title": "Ask HN: Who wants to be hired? (September 2026)",
+        "desc": "share your information if you are looking for work. please use this format:<p><pre><code>  location:\n  remote:\n  willing to relocate:\n  technologies:\n  r\u00e9sum\u00e9&#x2f;cv:\n  email:\n</code></pre>\nplease on",
+        "source_url": "https://news.ycombinator.com/item?id=49522896",
         "source_name": "Hacker News",
-        "date": "2026-09-01",
-        "category": "ai-marketing",
-        "badges": [
-          "hot",
-          "new"
-        ],
-        "angles": [
-          "Why Launch HN: Almanac (YC S26) \u2013 AI that knows your company is the biggest shift in marketing right now",
-          "How to get started with Launch HN: Almanac (YC S26) \u2013 AI that knows your company (without a massive budget)",
-          "The 3 pitfalls nobody talks about with Launch HN: Almanac (YC S26) \u2013 AI that knows your company",
-          "Why most companies fail at Launch HN: Almanac (YC S26) \u2013 AI that knows your company",
-          "Launch HN: Almanac (YC S26) \u2013 AI that knows your company: Overrated or the real deal?"
-        ]
-      },
-      {
-        "title": "Launch HN: Hebbian Robotics (YC S26) \u2013 Build scalable robotics data pipelines",
-        "desc": "https://github.com/Hebbian-Robotics/hflow",
-        "source_url": "https://news.ycombinator.com/item?id=49510632",
-        "source_name": "Hacker News",
-        "date": "2026-09-01",
-        "category": "ai-marketing",
-        "badges": [
-          "hot",
-          "new"
-        ],
-        "angles": [
-          "Why Launch HN: Hebbian Robotics (YC S26) \u2013 Build scalable robotics data pipelines is the biggest shift in marketing right now",
-          "How to get started with Launch HN: Hebbian Robotics (YC S26) \u2013 Build scalable robotics data pipelines (without a massive budget)",
-          "The 3 pitfalls nobody talks about with Launch HN: Hebbian Robotics (YC S26) \u2013 Build scalable robotics data pipelines",
-          "Why most companies fail at Launch HN: Hebbian Robotics (YC S26) \u2013 Build scalable robotics data pipelines",
-          "Launch HN: Hebbian Robotics (YC S26) \u2013 Build scalable robotics data pipelines: Overrated or the real deal?"
-        ]
-      },
-      {
-        "title": "Show HN: We built the smallest dual-band aircraft tracker",
-        "desc": "https://pantsforbirds.com/the-worlds-smallest-dual-band-ads-b-receiver-module/",
-        "source_url": "https://news.ycombinator.com/item?id=49455557",
-        "source_name": "Hacker News",
-        "date": "2026-09-01",
-        "category": "ai-marketing",
+        "date": "2026-09-02",
         "badges": [
           "warm",
           "new"
         ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Ask HN: Who wants to be hired? (September 2026) is the biggest shift happening in marketing right now",
+            "How to get started with Ask HN: Who wants to be hired? (September 2026) before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Ask HN: Who wants to be hired? (September 2026)",
+            "Why most marketing teams fail with Ask HN: Who wants to be hired? (September 2026)",
+            "Ask HN: Who wants to be hired? (September 2026): Overrated or the real deal? Here's my take after testing it"
+          ]
+        },
+        "primary_category": "ai-marketing",
         "angles": [
-          "Why Show HN: We built the smallest dual-band aircraft tracker is the biggest shift in marketing right now",
-          "How to get started with Show HN: We built the smallest dual-band aircraft tracker (without a massive budget)",
-          "The 3 pitfalls nobody talks about with Show HN: We built the smallest dual-band aircraft tracker",
-          "Why most companies fail at Show HN: We built the smallest dual-band aircraft tracker",
-          "Show HN: We built the smallest dual-band aircraft tracker: Overrated or the real deal?"
-        ]
-      },
-      {
-        "title": "Kilo Code for JetBrains",
-        "desc": "\n            Fully native, open-source coding agent built for JetBrains\n          \n          \n            <a href=\"https://www.producthunt.com/products/kilocode?utm_campaign=producthunt-atom",
-        "source_url": "https://www.producthunt.com/products/kilocode",
-        "source_name": "Product Hunt",
-        "date": "2026-09-01",
-        "category": "ai-marketing",
-        "badges": [
-          "warm",
-          "new"
-        ],
-        "angles": [
-          "Why Kilo Code for JetBrains is the biggest shift in marketing right now",
-          "How to get started with Kilo Code for JetBrains (without a massive budget)",
-          "The 3 pitfalls nobody talks about with Kilo Code for JetBrains",
-          "Why most companies fail at Kilo Code for JetBrains",
-          "Kilo Code for JetBrains: Overrated or the real deal?"
-        ]
-      },
-      {
-        "title": "Tovel AI",
-        "desc": "\n            From conversation to action, in three steps\n          \n          \n            <a href=\"https://www.producthunt.com/products/tovel-ai?utm_campaign=producthunt-atom-posts-feed&amp",
-        "source_url": "https://www.producthunt.com/products/tovel-ai",
-        "source_name": "Product Hunt",
-        "date": "2026-09-01",
-        "category": "ai-marketing",
-        "badges": [
-          "warm",
-          "new"
-        ],
-        "angles": [
-          "Why Tovel AI is the biggest shift in marketing right now",
-          "How to get started with Tovel AI (without a massive budget)",
-          "The 3 pitfalls nobody talks about with Tovel AI",
-          "Why most companies fail at Tovel AI",
-          "Tovel AI: Overrated or the real deal?"
+          "Why Ask HN: Who wants to be hired? (September 2026) is the biggest shift happening in marketing right now",
+          "How to get started with Ask HN: Who wants to be hired? (September 2026) before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Ask HN: Who wants to be hired? (September 2026)",
+          "Why most marketing teams fail with Ask HN: Who wants to be hired? (September 2026)",
+          "Ask HN: Who wants to be hired? (September 2026): Overrated or the real deal? Here's my take after testing it"
         ]
       },
       {
         "title": "Gauth AI Course",
-        "desc": "\n            AI courses you can watch, quiz through, and create\n          \n          \n            <a href=\"https://www.producthunt.com/products/gauth-ai-course?utm_campaign=producthunt-atom-",
+        "desc": "\n            AI courses you can watch, quiz through, and create\n          \n\nDiscussion\n            |\n            Link\n",
         "source_url": "https://www.producthunt.com/products/gauth-ai-course",
         "source_name": "Product Hunt",
-        "date": "2026-09-01",
-        "category": "ai-marketing",
+        "date": "2026-09-02",
         "badges": [
           "warm",
           "new"
         ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Gauth AI Course is the biggest shift happening in marketing right now",
+            "How to get started with Gauth AI Course before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Gauth AI Course",
+            "Why most marketing teams fail with Gauth AI Course",
+            "Gauth AI Course: Overrated or the real deal? Here's my take after testing it"
+          ]
+        },
+        "primary_category": "ai-marketing",
         "angles": [
-          "Why Gauth AI Course is the biggest shift in marketing right now",
-          "How to get started with Gauth AI Course (without a massive budget)",
-          "The 3 pitfalls nobody talks about with Gauth AI Course",
-          "Why most companies fail at Gauth AI Course",
-          "Gauth AI Course: Overrated or the real deal?"
+          "Why Gauth AI Course is the biggest shift happening in marketing right now",
+          "How to get started with Gauth AI Course before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Gauth AI Course",
+          "Why most marketing teams fail with Gauth AI Course",
+          "Gauth AI Course: Overrated or the real deal? Here's my take after testing it"
+        ]
+      },
+      {
+        "title": "Cosmic Agent Plugins",
+        "desc": "\n            Connect Cosmic agents to any service with an MCP server\n          \n\nDiscussion\n            |\n            Link\n",
+        "source_url": "https://www.producthunt.com/products/cosmic",
+        "source_name": "Product Hunt",
+        "date": "2026-09-02",
+        "badges": [
+          "warm",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Cosmic Agent Plugins is the biggest shift happening in marketing right now",
+            "How to get started with Cosmic Agent Plugins before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Cosmic Agent Plugins",
+            "Why most marketing teams fail with Cosmic Agent Plugins",
+            "Cosmic Agent Plugins: Overrated or the real deal? Here's my take after testing it"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why Cosmic Agent Plugins is the biggest shift happening in marketing right now",
+          "How to get started with Cosmic Agent Plugins before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Cosmic Agent Plugins",
+          "Why most marketing teams fail with Cosmic Agent Plugins",
+          "Cosmic Agent Plugins: Overrated or the real deal? Here's my take after testing it"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "title": "Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos",
+        "desc": "https://masteranza.github.io/weedout/",
+        "source_url": "https://news.ycombinator.com/item?id=49528895",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "warm",
+          "new"
+        ],
+        "category_angles": {
+          "content": [
+            "How Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos changed our entire content strategy in 7 days",
+            "The Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos content playbook: 3 tactics that actually work in 2025",
+            "Stop creating content like it is 2020. Try these Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos approaches instead",
+            "Why Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos content flops for most teams (and how to fix it)",
+            "Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos: content in 60 seconds \u2014 the TLDR for busy creators"
+          ]
+        },
+        "primary_category": "content",
+        "angles": [
+          "How Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos changed our entire content strategy in 7 days",
+          "The Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos content playbook: 3 tactics that actually work in 2025",
+          "Stop creating content like it is 2020. Try these Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos approaches instead",
+          "Why Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos content flops for most teams (and how to fix it)",
+          "Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos: content in 60 seconds \u2014 the TLDR for busy creators"
+        ]
+      },
+      {
+        "title": "My local model setup on an M4 Pro Mac Mini",
+        "desc": "https://lws.io/blog/my-local-model-setup/",
+        "source_url": "https://news.ycombinator.com/item?id=49529132",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "warm",
+          "new"
+        ],
+        "category_angles": {
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing My local model setup on an M4 Pro Mac Mini: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting My local model setup on an M4 Pro Mac Mini",
+            "The hidden gotcha nobody mentions about My local model setup on an M4 Pro Mac Mini",
+            "Why My local model setup on an M4 Pro Mac Mini is the tool you should try this week (or skip)"
+          ],
+          "content": [
+            "How My local model setup on an M4 Pro Mac Mini changed our entire content strategy in 7 days",
+            "The My local model setup on an M4 Pro Mac Mini content playbook: 3 tactics that actually work in 2025",
+            "Stop creating content like it is 2020. Try these My local model setup on an M4 Pro Mac Mini approaches instead",
+            "Why My local model setup on an M4 Pro Mac Mini content flops for most teams (and how to fix it)",
+            "My local model setup on an M4 Pro Mac Mini: content in 60 seconds \u2014 the TLDR for busy creators"
+          ]
+        },
+        "primary_category": "ai-tools",
+        "angles": [
+          "The 3 AI tools that replaced my entire tech stack this week",
+          "Testing My local model setup on an M4 Pro Mac Mini: does it actually save time or just add complexity?",
+          "How we cut costs 40% by adopting My local model setup on an M4 Pro Mac Mini",
+          "The hidden gotcha nobody mentions about My local model setup on an M4 Pro Mac Mini",
+          "Why My local model setup on an M4 Pro Mac Mini is the tool you should try this week (or skip)"
+        ]
+      },
+      {
+        "title": "The efficient frontier of LLM inference",
+        "desc": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+        "source_url": "https://news.ycombinator.com/item?id=49529898",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "warm",
+          "new"
+        ],
+        "category_angles": {
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing The efficient frontier of LLM inference: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting The efficient frontier of LLM inference",
+            "The hidden gotcha nobody mentions about The efficient frontier of LLM inference",
+            "Why The efficient frontier of LLM inference is the tool you should try this week (or skip)"
+          ],
+          "content": [
+            "How The efficient frontier of LLM inference changed our entire content strategy in 7 days",
+            "The The efficient frontier of LLM inference content playbook: 3 tactics that actually work in 2025",
+            "Stop creating content like it is 2020. Try these The efficient frontier of LLM inference approaches instead",
+            "Why The efficient frontier of LLM inference content flops for most teams (and how to fix it)",
+            "The efficient frontier of LLM inference: content in 60 seconds \u2014 the TLDR for busy creators"
+          ]
+        },
+        "primary_category": "ai-tools",
+        "angles": [
+          "The 3 AI tools that replaced my entire tech stack this week",
+          "Testing The efficient frontier of LLM inference: does it actually save time or just add complexity?",
+          "How we cut costs 40% by adopting The efficient frontier of LLM inference",
+          "The hidden gotcha nobody mentions about The efficient frontier of LLM inference",
+          "Why The efficient frontier of LLM inference is the tool you should try this week (or skip)"
+        ]
+      },
+      {
+        "title": "Atlas: A World Model for Spatial Intelligence",
+        "desc": "https://www.worldlabs.ai/blog/atlas",
+        "source_url": "https://news.ycombinator.com/item?id=49525160",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "warm",
+          "new"
+        ],
+        "category_angles": {
+          "ai-tools": [
+            "The 3 AI tools that replaced my entire tech stack this week",
+            "Testing Atlas: A World Model for Spatial Intelligence: does it actually save time or just add complexity?",
+            "How we cut costs 40% by adopting Atlas: A World Model for Spatial Intelligence",
+            "The hidden gotcha nobody mentions about Atlas: A World Model for Spatial Intelligence",
+            "Why Atlas: A World Model for Spatial Intelligence is the tool you should try this week (or skip)"
+          ],
+          "content": [
+            "How Atlas: A World Model for Spatial Intelligence changed our entire content strategy in 7 days",
+            "The Atlas: A World Model for Spatial Intelligence content playbook: 3 tactics that actually work in 2025",
+            "Stop creating content like it is 2020. Try these Atlas: A World Model for Spatial Intelligence approaches instead",
+            "Why Atlas: A World Model for Spatial Intelligence content flops for most teams (and how to fix it)",
+            "Atlas: A World Model for Spatial Intelligence: content in 60 seconds \u2014 the TLDR for busy creators"
+          ]
+        },
+        "primary_category": "ai-tools",
+        "angles": [
+          "The 3 AI tools that replaced my entire tech stack this week",
+          "Testing Atlas: A World Model for Spatial Intelligence: does it actually save time or just add complexity?",
+          "How we cut costs 40% by adopting Atlas: A World Model for Spatial Intelligence",
+          "The hidden gotcha nobody mentions about Atlas: A World Model for Spatial Intelligence",
+          "Why Atlas: A World Model for Spatial Intelligence is the tool you should try this week (or skip)"
+        ]
+      },
+      {
+        "title": "Video Agent by Fotor",
+        "desc": "\n            Create and edit precision motion graphics & video with chat\n          \n\nDiscussion\n            |\n            Link\n",
+        "source_url": "https://www.producthunt.com/products/fotor",
+        "source_name": "Product Hunt",
+        "date": "2026-09-02",
+        "badges": [
+          "warm",
+          "new"
+        ],
+        "category_angles": {
+          "ai-marketing": [
+            "Why Video Agent by Fotor is the biggest shift happening in marketing right now",
+            "How to get started with Video Agent by Fotor before your competitors do",
+            "The 3 pitfalls nobody talks about when implementing Video Agent by Fotor",
+            "Why most marketing teams fail with Video Agent by Fotor",
+            "Video Agent by Fotor: Overrated or the real deal? Here's my take after testing it"
+          ],
+          "content": [
+            "How Video Agent by Fotor changed our entire content strategy in 7 days",
+            "The Video Agent by Fotor content playbook: 3 tactics that actually work in 2025",
+            "Stop creating content like it is 2020. Try these Video Agent by Fotor approaches instead",
+            "Why Video Agent by Fotor content flops for most teams (and how to fix it)",
+            "Video Agent by Fotor: content in 60 seconds \u2014 the TLDR for busy creators"
+          ]
+        },
+        "primary_category": "ai-marketing",
+        "angles": [
+          "Why Video Agent by Fotor is the biggest shift happening in marketing right now",
+          "How to get started with Video Agent by Fotor before your competitors do",
+          "The 3 pitfalls nobody talks about when implementing Video Agent by Fotor",
+          "Why most marketing teams fail with Video Agent by Fotor",
+          "Video Agent by Fotor: Overrated or the real deal? Here's my take after testing it"
+        ]
+      }
+    ],
+    "automation": [
+      {
+        "title": "Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\"",
+        "desc": "https://hnmatchmaker.com/",
+        "source_url": "https://news.ycombinator.com/item?id=49528057",
+        "source_name": "Hacker News",
+        "date": "2026-09-02",
+        "badges": [
+          "warm",
+          "new"
+        ],
+        "category_angles": {
+          "automation": [
+            "Building my first Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" automation: 3 mistakes I made (and fixed)",
+            "How Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" replaced 2 hours of daily manual work",
+            "The Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" setup guide: from zero to automated in 2 hours",
+            "Why Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" automation fails (and how to make it stick)",
+            "Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\": the no-code stack that actually works in 2025"
+          ]
+        },
+        "primary_category": "automation",
+        "angles": [
+          "Building my first Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" automation: 3 mistakes I made (and fixed)",
+          "How Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" replaced 2 hours of daily manual work",
+          "The Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" setup guide: from zero to automated in 2 hours",
+          "Why Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\" automation fails (and how to make it stick)",
+          "Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\": the no-code stack that actually works in 2025"
         ]
       }
     ]

@@ -121,6 +121,9 @@
     </section>
 
     <div id="loading" class="loading" style="display:none;">⏳ Fetching the latest trends...</div>
+    <div id="category-note" style="display:none;background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.3);border-radius:10px;padding:1rem;margin-bottom:1.5rem;font-size:.85rem;color:var(--muted);">
+      💡 Trends are the same across categories, but each category gives you <strong>different post angles</strong> tailored to that context. Click any trend to copy all angles.
+    </div>
     <div id="results" class="trend-grid"></div>
     <div id="no-results" class="no-results" style="display:none;">
       <p>No trends match your filters.</p>
@@ -179,7 +182,13 @@
       const includeNews = document.getElementById("include-news").checked;
 
       // Get trends for this category, or fallback
-      let trends = trendsData.trends[cat] || trendsData.trends[fallbackCategory] || [];
+      let trends = trendsData.trends[cat] || [];
+      const hasData = trends.length > 0;
+      let usedFallback = false;
+      if (!hasData) {
+        trends = trendsData.trends[fallbackCategory] || [];
+        usedFallback = true;
+      }
 
       // Filter by hot only
       if (showHot) trends = trends.filter(t => t.badges && t.badges.includes("hot"));
@@ -193,26 +202,35 @@
       // Update header meta
       metaCategory.textContent = CATEGORY_LABELS[cat] || cat;
 
+      // Show category note if we have category_angles data
+      const note = document.getElementById("category-note");
+      if (note) note.style.display = "block";
+
       if (trends.length === 0) {
         noResultsEl.style.display = "block";
+        if (showHot) {
+          noResultsEl.innerHTML = '<p>No hot trends in this category right now.</p><p>Try unchecking "Hot trends only" to see warm trends.</p><button id="reset-filters" style="margin-top:1rem;padding:.6rem 1.2rem;background:var(--card);border:1px solid var(--border);border-radius:8px;cursor:pointer;">Reset filters</button>';
+        } else {
+          noResultsEl.innerHTML = '<p>No trends in this category yet.</p><p>We fetch from Hacker News + Product Hunt. Try another category or check back tomorrow.</p><button id="reset-filters" style="margin-top:1rem;padding:.6rem 1.2rem;background:var(--card);border:1px solid var(--border);border-radius:8px;cursor:pointer;">Reset filters</button>';
+        }
         return;
       }
       noResultsEl.style.display = "none";
 
       let html = "";
-      trends.forEach((t, i) => {
+      if (usedFallback) {
+        html += '<div style="background:rgba(234,179,8,.1);border:1px solid rgba(234,179,8,.3);border-radius:10px;padding:.75rem;margin-bottom:1rem;font-size:.8rem;color:var(--yellow);">⚠️ No specific trends for this category. Showing general AI marketing trends instead.</div>';
+      }
+      html += trends.map((t) => {
         const badgeHtml = (t.badges || []).map(b => {
           const label = badgeLabels[b] || b;
           return `<span class="badge ${b}">${label}</span>`;
         }).join("");
 
-        // Use fresh angles based on what's available
-        let angles = t.angles || [];
-        if (includeNews && t.news_angles) {
-          angles = [...angles, ...t.news_angles].slice(0, 5);
-        }
+        // Use category-specific angles: each trend has DIFFERENT angle sets per category
+        let angles = (t.category_angles && t.category_angles[cat]) || t.angles || [];
 
-        html += `
+        return `
           <div class="trend-card" onclick="copyAngles(this)">
             <div class="trend-header">
               <div class="trend-title">${escapeHtml(t.title)}</div>
@@ -228,7 +246,7 @@
             </div>
           </div>
         `;
-      });
+      }).join("");
       resultsEl.innerHTML = html;
     }
 
